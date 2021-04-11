@@ -7,6 +7,8 @@ top_image: /images/uploads/artificial-intelligence-singularity-1280x720.jpg
 tags:
   - singularity
 ---
+Thế giới này, trên thực tế giới công nghệ kỹ thuật phát triển nhanh hơn những gì não bộ con người có thể nhìn nhận và tư duy. Đó là sự phát triển theo cấp số nhân - thứ mà não bộ thông thường rất khó hình dung chính xác. Và đó chính là nội dung chính sẽ chia sẻ trong bài viết về học thuyết Singularity này.
+<!-- more -->
 # 1. Học thuyết về Singularity
 
 ## 1.1. Tốc độ tiến hóa của nhân loại ngày càng nhanh

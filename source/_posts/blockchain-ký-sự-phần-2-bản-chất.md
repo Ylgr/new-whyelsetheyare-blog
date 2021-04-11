@@ -7,6 +7,8 @@ top_image: https://builtin.com/sites/default/files/styles/medium/public/2019-01/
 tags:
   - blockchain
 ---
+Trong giới kỹ thuật, kiến thức tạo lợi thế và kiến thức phải đến từ cơ sở. Áp dụng lý luận này, hãy áp vào Blockchain và chúng ta sẽ bắt đầu tại đây để hiểu sâu và rõ hơn về cái thứ quỷ này.
+<!-- more -->
 # 1. Đặc điểm cấu tạo
 
 Blockchain về bản chất là một công nghệ ghép nối từ 3 dạng công nghệ đã có từ trước đó bao gồm: Mật mã học (cryptography), mạng ngang hàng (P2P network) và giao thức lý thuyết trò chơi (game theory protocol).

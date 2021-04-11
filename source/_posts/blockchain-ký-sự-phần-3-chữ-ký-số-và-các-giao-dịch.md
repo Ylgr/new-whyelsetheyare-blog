@@ -8,6 +8,8 @@ tags:
   - blockchain
   - crytocurrency
 ---
+What is it? Then How it work? Tiếp nối seri ký sự này sẽ giải thích cách thức hoạt động của Blockchain từ góc độ nhìn thấy được và đi sâu vào tìm hiểu nó làm cái gì mà ở thời điểm hiện tại lại được tín ngưỡng như vậy.
+<!-- more -->
 # 1. Transaction là gì?
 
 Transaction (giao dịch) là danh từ đề cập đến sự kiện điều kiện để biến đổi số dư của một tài khoản. Trong Blockchain cũng không ngoại lệ, nó là bản ghi chép dữ liệu chuyển tiền, nhận tiền hay việc kích hoạt làm thay đổi trạng thái của smart contract nào đó (việc này thông thường sẽ tốn phí gas với các mạng như ethereum hay bandwidth với các mạng như EOS).

@@ -9,6 +9,10 @@ tags:
   - review
   - system76
 ---
+
+Laptop là câu chuyện gần gũi với bất kỳ dev nào đã trải qua quãng thời gian sinh viên IT. Vào đầu năm 2021, mình quyết định đặt một con laptop có tên như tiêu đề về để trải nghiệm và đúc rút xem cụ thể nó có gì hay ho. Và rồi quá trình đặt hàng, thanh toán và vận chuyển hoàn tất giờ thì bé đã về với tay mình.
+
+<!-- more -->
 # 1. Câu truyện trong công việc
 
 ## 1.1. Nhu cầu sử dụng

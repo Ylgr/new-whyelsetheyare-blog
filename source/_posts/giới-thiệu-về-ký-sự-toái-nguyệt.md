@@ -9,6 +9,12 @@ tags:
   - giới thiệu
   - quan điểm
 ---
+Đã mang tiếng ở trong trời đất.
+
+Phải có danh gì với núi sơn.
+
+Đó là lý do hình thành của Blog này. Với kinh nghiệm của một dev kinh nghiệm trong lĩnh vực Blockchain, mình - bút danh là Toái Nguyệt, quyết định dựng lên ký sự này để chia sẻ và hướng dẫn cho những thế hệ dev Blockchain tiếp theo bắt đầu và giúp non-dev có góc nhìn với công nghệ này từ khía cạnh kỹ thuật. Ngoài ra Blog còn là ký sự kinh nghiệm về một cuộc đời không muốn ngừng nghỉ việc phát triển bản thân để chuẩn bị cho sự xuất hiện của kỷ nguyên Robot.
+<!-- more -->
 # 1. Sứ mệnh
 
   Toái Nguyệt ký sự là nhật ký ghi chép lại vốn kiến thức và tầm mình của mình. Mình muốn thông qua viết Blog, có thêm phương hướng và động lực để tiến tiếp vì tại chỗ chúng ta đang đứng chính là điểm bùng phát của công nghệ. Nơi mà những ai có tầm nhìn và năng lực có thể dẫn dắt các ngọn gió và đứng lên đầu ngọn sóng chạm tới những chân trời của thế kỷ.

@@ -8,6 +8,8 @@ tags:
   - blockchain
   - crytocurrency
 ---
+Có lẽ với phần đa mọi người khi bắt đầu tìm hiểu về Blockchain sẽ cần bắt gặp qua khái niệm về coin và token hay tóm tắt lại là crypto. Đây cũng là nguồn động lực lớn nhất, là con bài tẩy của cuộc cách mạng thay đổi lại cách tư duy của hàng loạt các hệ thống trên thế giới này. Bước đầu là tài chính sau là rất rất nhiều.
+<!-- more -->
 # 1. Coin
 
 Coin là thuật ngữ chỉ chung của nhóm Cryptocurrency sở hữu chain riêng của mình (VD: BTC, ETH, LTC). Coin trong cryptocurrency đóng vai trò chính trong việc khuyến khích người dùng tham gia network, sử dụng làm phí giao dịch hay lưu trữ giá trị tài sản.
