@@ -8,6 +8,8 @@ top_image: https://assets.system76.com/products/lemp10/lighter-than-air.jpg
 tags:
   - review
   - system76
+categories:
+  - laptop
 ---
 
 Laptop là câu chuyện gần gũi với bất kỳ dev nào đã trải qua quãng thời gian sinh viên IT. Vào đầu năm 2021, mình quyết định đặt một con laptop có tên như tiêu đề về để trải nghiệm và đúc rút xem cụ thể nó có gì hay ho. Và rồi quá trình đặt hàng, thanh toán và vận chuyển hoàn tất giờ thì bé đã về với tay mình.

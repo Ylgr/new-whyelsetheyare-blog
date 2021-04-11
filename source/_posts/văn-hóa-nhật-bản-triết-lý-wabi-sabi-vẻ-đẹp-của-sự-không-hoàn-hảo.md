@@ -4,6 +4,11 @@ title: "Văn hóa Nhật Bản: Triết lý Wabi-Sabi - Vẻ đẹp của sự k
 date: 2021-03-10T10:48:15.329Z
 toc: true
 top_image: /images/uploads/wabi-sabi.png
+tags:
+  - Nhật Bản
+  - wabi sabi
+categories:
+  - life style
 ---
 
 Sự hoàn hảo là một thứ xa sỉ gần như không tưởng, thế mà từ khi sinh ra chúng ta đã bị ép buộc vào tư duy phải trở lên hoàn hảo. Chúng ta bị so sánh với người khác khi có những điểm họ hay hơn mình, chúng ta trở thành những đối tượng bị định kiến xã hội nhào nặn. Hãy cùng tìm hiểu về văn hóa wabi sabi và cùng nhau thoát khỏi lớp vỏ này nào.

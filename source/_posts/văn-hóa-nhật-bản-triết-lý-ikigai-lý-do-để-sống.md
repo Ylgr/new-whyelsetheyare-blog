@@ -7,6 +7,8 @@ top_image: /images/uploads/857725.jpg
 tags:
   - Nhật Bản
   - ikigai
+categories:
+  - life style
 ---
 
 Từng có quãng thời gian, mình rất khâm phục người Nhật và mê văn hóa bên đó. Họ có rất nhiều nét đẹp văn hóa để cấu thành con người họ thời nay và seri này sẽ xoay quang từng net đẹp văn hóa đó để bóc tách và rút ra bài học để tự phát triển bản thân mình ngày một tốt đẹp và hạnh phúc hơn.

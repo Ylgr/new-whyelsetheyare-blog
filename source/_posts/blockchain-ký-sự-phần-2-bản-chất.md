@@ -5,7 +5,9 @@ date: 2021-02-15T04:19:20.205Z
 toc: true
 top_image: https://builtin.com/sites/default/files/styles/medium/public/2019-01/blockchain-companies.jpg
 tags:
-  - blockchain
+  - blockchain 
+categories:
+  - blockchain overview
 ---
 Trong giới kỹ thuật, kiến thức tạo lợi thế và kiến thức phải đến từ cơ sở. Áp dụng lý luận này, hãy áp vào Blockchain và chúng ta sẽ bắt đầu tại đây để hiểu sâu và rõ hơn về cái thứ quỷ này.
 <!-- more -->

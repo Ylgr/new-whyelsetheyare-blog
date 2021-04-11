@@ -7,6 +7,8 @@ top_image: https://tradevn.net/wp-content/uploads/2019/05/Trading-cryptocurrency
 tags:
   - blockchain
   - crytocurrency
+categories:
+  - blockchain overview
 ---
 Có lẽ với phần đa mọi người khi bắt đầu tìm hiểu về Blockchain sẽ cần bắt gặp qua khái niệm về coin và token hay tóm tắt lại là crypto. Đây cũng là nguồn động lực lớn nhất, là con bài tẩy của cuộc cách mạng thay đổi lại cách tư duy của hàng loạt các hệ thống trên thế giới này. Bước đầu là tài chính sau là rất rất nhiều.
 <!-- more -->

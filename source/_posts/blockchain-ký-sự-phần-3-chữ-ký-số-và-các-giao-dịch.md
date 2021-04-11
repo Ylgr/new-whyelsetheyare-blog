@@ -7,6 +7,8 @@ top_image: /images/uploads/finance-money-transaction-technology_31965-1134.jpg
 tags:
   - blockchain
   - crytocurrency
+categories:
+  - blockchain overview
 ---
 What is it? Then How it work? Tiếp nối seri ký sự này sẽ giải thích cách thức hoạt động của Blockchain từ góc độ nhìn thấy được và đi sâu vào tìm hiểu nó làm cái gì mà ở thời điểm hiện tại lại được tín ngưỡng như vậy.
 <!-- more -->

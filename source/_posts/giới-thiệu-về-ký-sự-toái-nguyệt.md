@@ -8,6 +8,8 @@ toc: true
 tags:
   - giới thiệu
   - quan điểm
+categories:
+  - introduction
 ---
 Đã mang tiếng ở trong trời đất.
 

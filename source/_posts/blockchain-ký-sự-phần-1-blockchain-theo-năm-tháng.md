@@ -8,6 +8,8 @@ top_image: /images/uploads/ebefzbywwaadrkh.jpg
 tags:
   - blockchain
   - tổng quan
+categories:
+  - blockchain overview
 ---
 Nếu bạn có trong tay 20 nghìn đồng, vào năm 2007 bạn có thể ăn 2 bát phở. Đến năm 2012 thì chỉ còn được 1 bát và năm 2017 thì một bát phở có giá 30 nghìn. Chuyện gì đang diễn ra ở đây vậy? Đó là khủng hoảng kinh tế! Và với sứ mệnh bảo về đồng tiền của bạn, thể hiện đầu tiên của Blockchain: Bitcoin ra đời.
 <!-- more -->
