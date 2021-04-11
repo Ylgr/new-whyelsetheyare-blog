@@ -23,3 +23,13 @@ collections:
       - {label: "Tags", name: "tags", widget: "list", default: ["giới thiệu", "quan điểm", "blockchain", "crypto"]}
       - {label: "Categories", name: "categories", widget: "list", default: ["Đầu tư", "Khởi nghiệp", "Lập trình", "Khác"]}
       - {label: "Body", name: "body", widget: "markdown"}
+  - name: 'about'
+    label: 'About'
+    folder: 'source/about'
+    create: true
+    slug: '{{slug}}'
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "about" }
+      - { label: 'Title', name: 'title', widget: 'hidden', default: "About" }
+      - { label: 'Type', name: 'type', widget: 'hidden', default: "about" }
+      - { label: 'Body', name: 'body', widget: 'markdown' }
