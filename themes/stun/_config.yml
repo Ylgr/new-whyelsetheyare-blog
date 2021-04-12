@@ -400,7 +400,7 @@ post_meta:
   # Dependency: https://github.com/willin/hexo-wordcount/
   # !!! Don't enable this before install dependency by `npm install hexo-wordcount --save` in hexo root directory.
   reading_time:
-    enable: false
+    enable: true
     # Icon name in FontAwesome, see: https://fontawesome.com/icons
     icon: far fa-clock
     # Set reading speed to count reading time.
@@ -413,7 +413,7 @@ post_meta:
   # Dependency: https://github.com/willin/hexo-wordcount/
   # !!! Don't enable this before install dependency by `npm install hexo-wordcount --save` in hexo root directory.
   word_count:
-    enable: false
+    enable: true
     # Icon name in FontAwesome, see: https://fontawesome.com/icons
     icon: far fa-file-word
 
@@ -536,7 +536,7 @@ livere:
 # See: https://disqus.com/
 disqus:
   enable: true
-  shortname: toai-nguyet-chuong
+  shortname: whyelsetheyare
   count: true
 
 # Utterances
@@ -587,7 +587,7 @@ busuanzi:
 
 # Google analytics ID
 # See: https://analytics.google.com/
-google_analytics: UA-177337579-1
+google_analytics: G-ML2LJVKED7
 
 # Baidu analytics ID
 # See: https://tongji.baidu.com/
