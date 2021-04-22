@@ -15,10 +15,8 @@ Cất lại ký sự trong túi, giờ chúng ta sẽ sang chủ đề thú vị
 
 1. Tôi đang ở đâu?
 
-B 
+ 
 
 ![](/images/uploads/blockchain-map.png)
 
-Let goo
-
-Điều đầu tiên để bắt đầu mỗi cuộc thám hiểm là hãy biết nơi mình đứng,
+\*Lời thì thầm\* Xin chào mừng bạn đến với vương quốc Blockchain
