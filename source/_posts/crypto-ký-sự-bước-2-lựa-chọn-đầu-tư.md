@@ -1,6 +1,6 @@
 ---
 layout: blog
-title: "Crypto ký sự - Bước 2: Quyền lựa chọn"
+title: "Crypto ký sự - Bước hai: Quyền lựa chọn"
 date: 2021-04-26T19:28:28.351Z
 top_image: /images/uploads/59787079_p0.png
 tags:
@@ -10,6 +10,8 @@ categories:
   - Đầu tư
 ---
 Ký sự năm 2021, chúng ta đang sống trong một đất nước độc lập, tư do và hạnh phúc. Quay trở lại với hắn, hắn có đang cảm thấy thế không? À mà bạn có thấy thế không? Bạn có nghĩ những người khác xung quanh mình thấy thế không. Tất nhiên rồi, hẳn rằng trong cuộc đời này luôn có những thường sống trong hạnh phúc. Và sự thật là phần đa chúng ta không cảm thấy hạnh phúc. Chúng ta bất lực vì không được quyền chọn lựa, chúng ta thường mặc định chấp nhận hy sinh sự tư do của mình.
+
+<!-- more -->
 
 # 1. Tri thức là sức mạnh, sức mạnh tạo quyền lực và quyền lực là minh chứng của sự tự do.
 
