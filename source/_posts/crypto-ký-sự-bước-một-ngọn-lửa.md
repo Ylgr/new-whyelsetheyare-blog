@@ -56,7 +56,7 @@ Giờ thì hãy xem qua biến động của đồng USD nào.
 
 ![](https://cdn.howmuch.net/articles/Rise-and-Fall-of-the-USD-64c2.jpg)
 
-Được rồi, dành cho các bạn chưa biết, nếu ta có 1$ vào năm 1913 và giữ nó đến 2019 thì nó sẽ quy đổi được chính xác là 0.05$ giá trị.
+Được rồi, dành cho các bạn chưa biết, nếu ta có 100$ vào năm 1913 và giữ nó đến 2019 thì nó sẽ quy đổi được chính xác là 0.05$ giá trị.
 
 Có 2 chuyện cùng song song xảy ra:
 
