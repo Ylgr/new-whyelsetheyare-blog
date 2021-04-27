@@ -23,19 +23,19 @@ Trong quá trình tiến bước, người nhập hội, người rời bỏ. Cu
 
 # 2. Ngã rẽ cuộc đời
 
-1. Nhà giả kim
+## 2.1. Nhà giả kim
 
 
 
-2. Luyện rồng sư
+## 2.2. Luyện rồng sư
 
 
 
-3. Trinh sát
+## 2.3. Trinh sát
 
 
 
-4. Chiến binh
+## 2.4. Chiến binh
 
 
 
