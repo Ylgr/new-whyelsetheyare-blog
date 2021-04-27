@@ -19,24 +19,16 @@ Trong quá trình tiến bước, người nhập hội, người rời bỏ. Cu
 
 # 1. Đứng từ đỉnh cao, ngã xuống vực sâu và từng bước gượng lại
 
-
+ Và hắn đã tham gia thị trường, trong 1 tháng đầu tại đó là cảm giác cực kỳ phê pha. Mỗi ngày mở tài khoản lên, tiền ngày một tăng ra. Thứ mà hắn cảm thấy là cái cảm xúc vui buồn lẫn lộn. Hắn vui vì tiền tăng mà cũng buồn vì ít tiền. Giờ thì ngẫm lại thì hắn biết rằng đó là lòng tham của cá con. Đời vốn không như mơ, 1 tháng kế tiếp thị trường đỏ rực hắn ngắm nhìn khoản tăng trưởng của hắn quay về vạch xuất phát. Và đó là lúc hắn hiểu thế nào là tâm lý thị trường. Hắn do dự, sợ sệt và cũng vào thêm ít vốn theo những gì hắn được dạy.
 
 # 2. Ngã rẽ cuộc đời
 
 ## 2.1. Nhà giả kim
 
-
-
 ## 2.2. Luyện rồng sư
-
-
 
 ## 2.3. Trinh sát
 
-
-
 ## 2.4. Chiến binh
-
-
 
 # 3. Bạn là ai?
