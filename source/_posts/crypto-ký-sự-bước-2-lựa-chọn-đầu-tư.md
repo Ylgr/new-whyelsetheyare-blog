@@ -20,3 +20,17 @@ Về bản chất, hắn là kiểu siêu hướng nội. Chỉ riêng việc gi
 Cùng năm đó, hắn được dạy về Crypto, được dạy về tính cách, được dạy về quyết định. Càng nhiều tri thức tiếp thu, hắn thấy mình tầm vóc hơn.
 
 Ngày 15 tháng 12 năm 2018 là một kỷ niệm khó quên đối với hắn, lần đầu tiên hắn sở hữu một thứ gọi là Crypto. Và bắt đầu từ hành động này là một chuỗi cách sự kiện diễn ra. Đó là một câu chuyện dài nhưng đó là lần đầu hắn biết đến việc tự tay mình có thể làm được, hắn có được con đường để khiến việc kiếm tiền mua nhà, mua xe (ước mơ của bao người) thành sự thật. Hắn biết về luật nhân quả, hắn hiểu rõ bản thân mình hơn, hắn trút đi nỗi niềm tự ti của bản thân ngày nào. Có thể nói đó là hành trình thanh tịnh tâm hồn hắn trở lại sự thuần khiến của một tờ giấy trắng - một tâm hồn ham học hỏi và đầy tư do.
+
+# 2. Tầm nhìn là nền tảng của sự giàu có
+
+Một sự thật là tháng 12 năm 2018 là thời điểm Bitcoin tạo đáy, ai mà biết được chứ mà sự thật là thế. Trò đùa của sự ngẫu nhiên là lời giải của bao thương vụ huyền thoại làm lên tên tuổi cùa hàng ngàn tỳ phú thời nay: Bill Gate, Warren Buffett hay Mark Zuckerberg.
+
+Bạn đã từng nghe nói đến "thiên nga đen" chưa? Bắt nguồn tư câu chuyện trước khi con người khám phá ra châu Đại dương thì cả thế giới vẫn tin là thiên nga luôn có màu trắng. Nhìn lại lịch sử thì năm 1930 cách chúng ta gần 100 năm có một cuộc khủng hoảng kinh tế toàn thế giới "khủng" chưa từng thấy. Chôn lấp toàn bộ phát triển kinh tế trước đó và mở ra kỷ nguyên mới, lúc mà Warren Buffett bắt đầu nở rộ sự nghiệp.
+
+Bạn đã nghe nói đến "bong bóng tài chính" chưa? Bong bóng hoa tunip rồi bong bóng dot com. Thế bong bóng Crypto thì sao?
+
+Nếu bạn đã từng nghe và tin vào bong bóng Crypto thì tôi xác nhận luôn, sẽ có đó! Hãy nhìn lại lịch sử bong bóng dot com nào.
+
+![](/images/uploads/screenshot-from-2021-04-27-13-09-05.png)
+
+Thời điểm mà cổ phiều của các cty công nghệ còn là bong bóng thì thực sự chúng chưa là gì so với sự phát triển hiện nay. Bạn có thấy mô hình tương tự của Crypto không?
