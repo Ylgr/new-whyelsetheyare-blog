@@ -69,7 +69,7 @@ Từ đó suy ra, nếu ta giữ VNĐ theo thời gian. Ta bị lỗ kép! Và n
 
 Nghĩ đến thôi cũng mệt mỏi nhỉ. Chi bằng ở nguyên một công ty mà hưởng thụ chứ.
 
-Và đây là sự thật! Công ty ghét bạn và chỉ muốn bạn làm việc năng suất nhất với cái giá nhỏ nhất. Sẵn sàng thay thế bạn cho những lựa chọn tối ưu hơn!
+Và đây là sự thật! Công ty ghét bạn và chỉ muốn bạn làm việc năng suất nhất với cái giá nhỏ nhất. Sẵn sàng thay thế bạn cho những lựa chọn tối ưu hơn! (Hãy đừng quá tiêu cực với nhận định trên, tôi biết ở ngoài kia có rất nhiều công ty hết mực yêu thương nhân viên và luôn muốn nhân viên mình có cơ hội phát triển).
 
 Nếu bạn tự tin năng lực mình xứng đáng với những gì mình làm. Hành động! Mệt mỏi với những điều trên. Good luck!
 
