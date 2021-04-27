@@ -33,4 +33,18 @@ Nếu bạn đã từng nghe và tin vào bong bóng Crypto thì tôi xác nhậ
 
 ![](/images/uploads/screenshot-from-2021-04-27-13-09-05.png)
 
-Thời điểm mà cổ phiều của các cty công nghệ còn là bong bóng thì thực sự chúng chưa là gì so với sự phát triển hiện nay. Bạn có thấy mô hình tương tự của Crypto không?
+Thời điểm mà cổ phiều của các cty công nghệ còn là bong bóng thì thực sự chúng chưa là gì so với sự phát triển hiện nay. Bạn có thấy mô hình tương tự của Crypto không? Bạn có thấy 100k $ vào 2022 không? 1 triệu $ vào 2025 thì sao? Thứ mà tôi thấy đây.
+
+![](/images/uploads/screenshot-from-2021-04-27-13-56-45.png)
+
+# 3. Quá nhiều lựa chọn không biết hành động thế nào
+
+Nếu bạn rơi vào tình huống này thì chúng ta giống nhau rồi đó. Một cú chốt lời thần thánh kết thúc mùa hè Crypto này (mùa Crypto sẽ được đề cập ở seri Crypto luyện rồng). Mà chuyện gì đang xảy ra, ở thị trường Crypto này có đến cả chục ngàn mã, thế mã nào có thể đem lại kỳ vọng lớn nhất mà lead thị trường tương lai? Không ai biết chính xác cả, ít nhất là tôi và bạn thời điểm này.
+
+"Lựa chọn quan trọng hơn hành động." - Đây là vế đầu của nguyên tắc sống của tôi, vì nếu bạn đủ thông minh, bạn sẽ biết có nhiều lựa chọn sẽ cho bạn hiệu quả và những lựa chọn sẽ đẩy bạn xuống vực sâu. Tuy nhiên châm ngôn đó của tôi còn 1 vế nữa.
+
+"Nếu đã lựa chọn, hãy làm nó thành lựa chọn đúng." - Chắc hẳn bạn cũng thắc mắc, mình có quá tốn sức khi cân nhắc lựa chọn để rồi vòng qua lại những lựa chọn mà không đem thứ nào đến chốn đúng không? Đây là câu trả lời của tôi, bạn hãy dứt khoát với lựa chọn đó và làm cho nó đúng. Đôi khi để thoát khỏi sự bế tắc này, bạn phải chấp nhận chơi một ván bạc cuộc đời nhưng hãy nắm thật chắc rủi ro và sẵn sàng ứng phó khi nó đến. Hãy tin rằng thần may mắn sẽ mỉn cười với bạn và mời bạn đến đài vinh quang sau đó. 
+
+Hãy sống cho tên bạn!
+
+![](/images/uploads/10_years_of_carciphona_by_shilin_d8v4vyt-fullview.jpg)
