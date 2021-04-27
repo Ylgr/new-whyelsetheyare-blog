@@ -18,7 +18,7 @@ Câu chuyện kể về 3 năm trước, từ một đứa sinh viên công ngh�
 
 Hẳn là với một Blockchain dev, hắn cũng là đối tượng gần gũi, trải qua đắng cay ngọt bùi với lý tưởng về sự thay đổi thế giới này! Đó chỉ là ngụy biện, hắn đến với Crypto mục đích chính là tiền, vì ước mơ đổi đời! Và nhờ thế hắn quen biết với quý ngài thị trường.
 
-Chỉ riêng Crypto, hắn đã trải qua đủ cung bậc và vị trí trên chiến trường: Giả kim (Developer), Luyện rồng (Invester), Trinh sát (Speculator) và Đãi vàng (Trader).
+Chỉ riêng Crypto, hắn đã trải qua đủ cung bậc và vị trí trên chiến trường: Giả kim (Developer), Luyện rồng (Invester), Trinh sát (Speculator) và Chiến binh (Trader).
 
 Mỗi vị trí sẽ là một ký sự riêng biệt của hắn tại cuộc chiến này.
 
@@ -61,7 +61,6 @@ Giờ thì hãy xem qua biến động của đồng USD nào.
 Có 2 chuyện cùng song song xảy ra:
 
 1. VNĐ lạng pháp so với USD.
-
 2. USD mất giá trị theo thời gian.
 
 Từ đó suy ra, nếu ta giữ VNĐ theo thời gian. Ta bị lỗ kép! Và ngân hàng cũng không là giải pháp cứu chúng ta vì lý do như mục 2.1.1.
