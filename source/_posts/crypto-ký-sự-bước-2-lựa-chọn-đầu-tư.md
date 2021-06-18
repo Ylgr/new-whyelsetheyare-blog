@@ -2,7 +2,7 @@
 layout: blog
 title: "Crypto ký sự - Bước hai: Quyền lựa chọn"
 date: 2021-04-26T19:28:28.351Z
-top_image: /images/uploads/59787079_p0.png
+top_image: /images/uploads/dcyfv9u-7e9efed0-71f0-4a41-96d2-5913d57b318b.png
 tags:
   - crypto
   - ký sự
