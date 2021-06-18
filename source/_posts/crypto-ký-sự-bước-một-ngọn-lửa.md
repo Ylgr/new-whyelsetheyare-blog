@@ -2,7 +2,7 @@
 layout: blog
 title: "Crypto ký sự - Bước một: Ngọn lửa"
 date: 2021-04-26T16:53:12.071Z
-top_image: /images/uploads/78532174_p0.png
+top_image: /images/uploads/dbrs4ta-595183b5-8279-4780-9118-11ae018c12e2.png
 tags:
   - crypto
   - ký sự
