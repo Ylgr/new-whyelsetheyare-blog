@@ -29,12 +29,22 @@ Trong quá trình tiến bước, người nhập hội, người rời bỏ. Cu
 
 # 2. Ngã rẽ cuộc đời
 
+![](/images/uploads/titelbild_pathfinder-kingmaker_begleiter_s4g.jpg)
+
 ## 2.1. Nhà giả kim
 
-## 2.2. Luyện rồng sư
+Khi nhắc đến nhà giả kim, ấn tượng chung sẽ là những con người cao quý có khả năng biến chì thành vàng. Sự thật là để đạt được đến đẳng cấp đó, trước hết là tố chất sau là sự nỗ lực và khát vọng theo đuổi. Blockchain không phải là một lĩnh vực có thời gian đủ lâu, nên nhìn chung tài liệu chưa phổ biến và đa dạng, những người hiểu biết không đủ nhiều để dominate nhu cầu học hỏi thêm.
 
-## 2.3. Trinh sát
+Dành cho các bạn chưa hay, hiện tại dù mình đang có tuổi nghề 2 năm kinh nghiệm về lĩnh vực này nhưng nếu nhìn lại, cách đây 2 năm nghề dev Blockchain có mức lương mặt bằng chung thấp hơn một web dev thông thường, nhu cầu nghề nghiệp cũng thấp mà tài liệu học tập cực kỳ khan hiếm và không chi tiết, một đứa lập trình viên dở dở ương ương mới hơn 1 năm kinh nghiệm như mình đã phải vật lộn ở thế giới đó khá lạc lõng cho đến khi vào được lề.
 
-## 2.4. Chiến binh
+Bạn muốn trải nghiệm nghề này? Xin hãy chờ đón các bài viết sau về chủ đề Blockchain giả kim.
 
-# 3. Bạn là ai?
+## 2.2. Giáo sĩ
+
+
+
+## 2.3. Chiến binh
+
+
+
+## 2.4. Trinh sát
