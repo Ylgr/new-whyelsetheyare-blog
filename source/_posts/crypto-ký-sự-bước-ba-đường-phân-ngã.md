@@ -39,12 +39,22 @@ Dành cho các bạn chưa hay, hiện tại dù mình đang có tuổi nghề 2
 
 Bạn muốn trải nghiệm nghề này? Xin hãy chờ đón các bài viết sau về chủ đề Blockchain giả kim.
 
-## 2.2. Giáo sĩ
+## 2.2. Giáo sỹ
 
+Giáo sỹ ở đây là để chỉ những investor. Sở dĩ tôi gọi vậy vì mặc dù chỉ là mua crypto và hold chờ lên giá xong bán. Nhưng thị trường này rất khắc nhiệt, đôi khi những việc nghĩ chừng đơn giản thế lại rất khó. Thứ tuyệt vời nhất của trường phái này đó là họ là những tín ngưỡng của Crypto, coi đây là một tôn giáo, tin tưởng Bitcoin một ngày lên 1 triệu đô và lan tỏa niềm tin này đến nhiều người khác.
 
+Trong loạt bài về Giáo sỹ Crypto, chúng ta sẽ vào vai một nhà truyền giáo để hiểu được bản chất của niềm tin này. Tại sao họ là tin tưởng vậy, làm sao để duy trì niềm tin đó và làm sao để kiếm tiền theo trường phái này.
 
 ## 2.3. Chiến binh
 
+Thị trường là một cuộc chiến đẫm máu mà ai cũng muốn trở thành kẻ chiến thắng, luôn trong tâm thế và tư thế sẵn sàng để chiến đó là những trader. Họ là động lực để tạo thanh khoản và sóng trong thị trường. Tuy nhiên là trường phái khắc nhiệt nhất trong 4 lớp trường phái đang kể, kiếm tiền nhanh nhất và cũng là mất tiền nhanh nhất.
 
+Bạn sẵn sàng chơi canh bạc này không. Hãy chuẩn bị thật kỹ hành trang nha, súng đạn vô tình. Trong loạt bài Chiến binh Crypto, ta sẽ nói về triết lý, chiến lược, tâm lý và các phương pháp phân tích kỹ thuật nếu theo hướng này. Bạn có sẵn sàng không?
 
 ## 2.4. Trinh sát
+
+Biết mình, biết người, trăm trận trăm thắng. Đó là lý do mình gọi những Speculator là những trinh sát. Những người này sẽ tập trung vào kỹ năng phân tích tình hình thị trường, tập trung vào những cơ hội mới không có nhiều người có cơ hội tiếp cận và khai lợi nhuận từ đó thật nhanh chóng trước khi nó vụt mất.
+
+Đây là một trường phái khá thú vị vì bản chất nếu nhìn nhận đúng thì ở thị trường Crypto này bản chất vẫn còn non trẻ, những người tham gia thị trường tại thời điểm này đều được coi là những kẻ đầu cơ trong mắt những người tham gia các thị trường tài chính khác.
+
+Trong câu chuyện Trinh sát Crypto, chúng ta sẽ tập trung vào các mô hình gọi vốn và các cách bản thân crypto vận động để thúc đẩy giá cả trong thị trường.
