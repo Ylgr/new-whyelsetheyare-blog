@@ -35,3 +35,25 @@ Chúng ta là chúa à, chứ còn gì nữa. Khi bạn đã thạo được Blo
 Còn đá tạo vàng thì sao? Là chúa rồi thì tất nhiên sẽ có quyền năng đó, chỉ cần bạn thành thạo được smart contract, wallet cùng một ít cho state và cryptography. Tiền có thể được bốc ra từ không khí chứ không cần đến chì, mà nó có giá trị hay không thì còn phụ thuộc vào nhiều yếu tố.
 
 # 2. Hành trang cho cuộc hành trình
+
+## 2.1. Hành trang nội tại
+
+Bên trên mô tả có vẻ fantasy nhưng thực tế ngành kỹ thuật không thực sự như thế với bất kỳ ai đâu. Để đạt được  level có thể fantasy hóa việc lập trình thì trước hết đó là tố chất.
+
+Tố chất là năng lực bẩm sinh của mỗi người, là sự hài hòa sinh ra từ tính cách và thể chất để khiến bạn phù hợp với một công việc nào đó. Những người có tốt chất trong bất kỳ lĩnh vực nào cũng đều dễ dàng gặp hái thành công hơn so với những người khác không có.
+
+Làm sao để biến được mình có tốt chất không? Hãy thử qua trắc nghiệm phân loại tính cách MBTI nha, chủ đề này khá thú vị, chúng ta sẽ dành một hai bài viết về nó trong tương lai.
+
+## 2.2. Hành trang kỹ năng
+
+Bạn có tố chất rồi chứ? Tốt, giờ đến kỹ năng lập trình.
+
+Chúng ta ở điểm xuất pháp không phải là chưa có gì. Mặc dù sẽ cùng nhau xuất pháp, trong quá trình học hỏi tôi sẽ giúp bạn khai triển các kỹ năng lập trình phù hợp để giải mã các thử thách trên đường đi. Và những kỹ năng đó chỉ phù hợp với trường hợp đó và một vài trường hợp tương tự.
+
+Trong lộ trình này chúng ta sẽ code qua các ngôn ngữ chính: Solidity, Node.js và Rust.
+
+## 2.3. Hành trang thiết bị
+
+Làm một nhà giả kim thì chắc hẳn phải luôn có trong người đồ nghề rồi, xem nào: rễ cây ngàn tuổi, nọc kiến,... Và chúng ta sẽ không bao giờ dùng đến những thứ đó.
+
+Trong hành trình này tôi sẽ dùng laptop hệ điều hành pop-os 20.04 (tương tự với ubuntu 20.04). Chúng ta khuyến khích code trên ubuntu hoặc mac os thôi, window sẽ rất cực để setup môi trường nhưng nếu bạn thích try hard, chúc bạn may mắn.
