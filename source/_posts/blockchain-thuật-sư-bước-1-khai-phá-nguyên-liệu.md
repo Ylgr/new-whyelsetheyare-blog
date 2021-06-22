@@ -2,7 +2,7 @@
 layout: blog
 title: "Blockchain thuật sư - Bước 1: Chuẩn bị hành trang, chúng ta lên đường"
 date: 2021-06-22T03:11:35.146Z
-top_image: /images/uploads/10_years_of_carciphona_by_shilin_d8v4vyt-fullview.jpg
+top_image: /images/uploads/65479851_p0.jpg
 tags:
   - blockchain
   - lập trình
@@ -57,3 +57,7 @@ Trong lộ trình này chúng ta sẽ code qua các ngôn ngữ chính: Solidity
 Làm một nhà giả kim thì chắc hẳn phải luôn có trong người đồ nghề rồi, xem nào: rễ cây ngàn tuổi, nọc kiến,... Và chúng ta sẽ không bao giờ dùng đến những thứ đó.
 
 Trong hành trình này tôi sẽ dùng laptop hệ điều hành pop-os 20.04 (tương tự với ubuntu 20.04). Chúng ta khuyến khích code trên ubuntu hoặc mac os thôi, window sẽ rất cực để setup môi trường nhưng nếu bạn thích try hard, chúc bạn may mắn.
+
+\--------------------------------------------------
+
+Bật mí chút là chúng ta không cần đi hết con đường này. Chỉ cần kết thúc bước 4 của seri này thôi cùng với sự sáng tạo và năng lực cá nhân thì bạn đã đủ năng lực để tự tin apply vào vị trí này ở nhiều cty hiện nay rồi.
