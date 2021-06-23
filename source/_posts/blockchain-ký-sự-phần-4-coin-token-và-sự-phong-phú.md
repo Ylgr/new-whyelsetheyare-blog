@@ -65,7 +65,7 @@ Blockchain nổi bật: Cosmos, Binance Chain, ...
 
 ## 3.4. Dạng Tangle
 
-![](http://blog.iota.org/content/images/uploads/2020/12/1-FT_UG7KCcvpnZx0K_WeukA.jpeg)
+![](https://www.forex.academy/wp-content/uploads/2020/03/TangleVsBlockchain.png)
 
 Một gương mặt đáng chú ý của Blockchain thế hệ thứ 3 là IOTA, xử lý vấn đề phí giao dịch theo hướng xây dựng network không có miner. Để thực hiện giao dịch, user buộc phải verify 2 giao dịch khác để có thể submit giao dịch lên network.
 

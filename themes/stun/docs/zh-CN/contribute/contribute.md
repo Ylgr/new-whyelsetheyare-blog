@@ -20,7 +20,7 @@
 
 ## 开发之前的准备
 
-你需要安装 [Node.js](http://nodejs.org/) 和 [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)。
+你需要安装 [Node.js](https://nodejs.org/) 和 [npm](https://docs.npmjs.com/downloading-and-installing-node-js-and-npm)。
 
 在 clone 该仓库后，执行:
 
