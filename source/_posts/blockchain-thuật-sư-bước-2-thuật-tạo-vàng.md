@@ -70,3 +70,86 @@ contract NiftMemoryDust is ERC721URIStorage {
     }
 }
 ```
+Giải thích: Smart contract trên tạo ra contract token ERC721 (NFT) gồm 3 token có id tương ứng 1, 2, 3. Mỗi id gắn với một thông tin URI như trong source code.
+
+# 2. Đóng gói và tạo hình
+
+Sau khi hoàn thành và chạy thử thành công smart contract trên remix, giờ ta sẽ mang chúng setup lại trên truffle để thuận tiện trong việc build deploy data, abi và verify network.
+
+Trong phần này chúng ta sẽ sử dụng Truffle để triển khai Smart contract và React để làm frontend hiển thị thành quả.
+
+Note: Bạn cần cài đặt [Node.js](https://nodejs.org/en/download/package-manager/) và [Truffle](https://www.trufflesuite.com/docs/truffle/getting-started/installation) để có thể tiến hành.
+
+Đầu tiên ta khởi tạo project bằng cách [unbox template](https://www.trufflesuite.com/boxes/react).
+
+```
+mkdir nift-memory
+cd nift-memory
+truffle unbox react 
+```
+Khởi tạo npm và thêm 1 vài dependency cần thiết cho việc dev.
+```
+npm init
+npm install @openzeppelin/contracts
+npm install @truffle/hdwallet-provider
+npm install dotenv
+npm install truffle-plugin-verify --save-dev
+```
+Tạo file .env tại root của project và truyền giá trị PRIVATE_KEY và BSCSCANAPIKEY (sử dụng cho verify contract). Sau đó setup lại config trong file: truffle-config.js
+```
+const path = require("path");
+const HDWalletProvider = require('@truffle/hdwallet-provider');
+require('dotenv').config();
+
+const privateKey = process.env.PRIVATE_KEY
+
+module.exports = {
+  // See <http://truffleframework.com/docs/advanced/configuration>
+  // to customize your Truffle configuration!
+  contracts_build_directory: path.join(__dirname, "client/src/contracts"),
+  plugins: [
+    'truffle-plugin-verify'
+  ],
+  api_keys: {
+    bscscan: process.env.BSCSCANAPIKEY,
+    testnet: process.env.BSCSCANAPIKEY,
+  },
+  networks: {
+    development: {
+      host: "127.0.0.1",     // Localhost (default: none)
+      port: 8545,            // Standard BSC port (default: none)
+      network_id: "*",       // Any network (default: none)
+    },
+    testnet: {
+      provider: () => new HDWalletProvider(privateKey, `https://data-seed-prebsc-1-s1.binance.org:8545`),
+      network_id: 97,
+      confirmations: 10,
+      timeoutBlocks: 200,
+      skipDryRun: true
+    },
+    bsc: {
+      provider: () => new HDWalletProvider(privateKey, `https://bsc-dataseed1.binance.org`),
+      network_id: 56,
+      confirmations: 10,
+      timeoutBlocks: 200,
+      skipDryRun: true
+    },
+  },
+
+  // Set default mocha options here, use special reporters etc.
+  mocha: {
+    // timeout: 100000
+  },
+
+  // Configure your compilers
+  compilers: {
+    solc: {
+      version: "^0.8.4", // A version or constraint - Ex. "^0.5.0"
+    }
+  }
+};
+
+```
+
+
+# 3. Hiện thực hóa
