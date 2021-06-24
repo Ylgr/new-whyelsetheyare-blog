@@ -57,16 +57,16 @@ pragma solidity ^0.8.0;
 
 import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.1.0/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
 
-contract NiftMemoryDust is ERC721URIStorage {
+contract NiftMemoryTreasure is ERC721URIStorage {
     
-    constructor() ERC721("Nift memory treasury", "NIFT-TREASURY") {
+    constructor() ERC721("Nift memory treasure", "NIFT-TREASURE") {
         _mint(msg.sender,1);
         _mint(msg.sender,2);
         _mint(msg.sender,3);
         
-        _setTokenURI(1, "https://ylgr.github.io/nift-memory/treasury/freedom.json");
-        _setTokenURI(2, "https://ylgr.github.io/nift-memory/treasury/wealth.json");
-        _setTokenURI(3, "https://ylgr.github.io/nift-memory/treasury/happiness.json");
+        _setTokenURI(1, "https://ylgr.github.io/nift-memory/treasure/freedom.json");
+        _setTokenURI(2, "https://ylgr.github.io/nift-memory/treasure/wealth.json");
+        _setTokenURI(3, "https://ylgr.github.io/nift-memory/treasure/happiness.json");
     }
 }
 ```
@@ -150,6 +150,21 @@ module.exports = {
 };
 
 ```
+Xóa tất cả các file có sẵn ở contracts, migrations và test, sau đó tạo 2 file NiftMemoryDust.sol và NiftMemoryTreasure.sol tương ứng trong thư mục contracts.
 
+Chuyển code sang và thay đổi lại cấu trúc import của mỗi file, thay đoạn `https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.1.0` thành `@openzeppelin`.
+
+Tạo file 1_deploy_contract.js trong migrations và thêm code deploy:
+
+```
+const NiftMemoryDust = artifacts.require("./NiftMemoryDust.sol");
+const NiftMemoryTreasure = artifacts.require("./NiftMemoryTreasure.sol");
+
+module.exports = function(deployer) {
+  deployer.deploy(NiftMemoryDust);
+  deployer.deploy(NiftMemoryTreasure);
+};
+```
+Và done, phần setup đã xong.
 
 # 3. Hiện thực hóa
