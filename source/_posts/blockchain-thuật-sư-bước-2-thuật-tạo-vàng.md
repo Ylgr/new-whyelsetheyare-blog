@@ -167,4 +167,25 @@ module.exports = function(deployer) {
 ```
 Và done, phần setup đã xong.
 
+Giờ ta sẽ triển khai deploy smart contract này lên binance smart chain testnet và verify nó.
+
+Đầu tiên ta cần [faucet BNB](https://testnet.binance.org/faucet-smart). Khi đã có BNB và .env đã setup đẩy đủ thông tin.
+
+```
+truffle migrate --network testnet
+```
+
+Chờ script chạy xong và ta-da, Dust và Treasure đã được đẩy lên binance smart chain testnet.
+
+NiftMemoryDust: https://testnet.bscscan.com/address/0xaae5fc57ae9b2702e165224bc7b4f700ba698b22
+NiftMemoryTreasure: https://testnet.bscscan.com/address/0xe3864fb24851ea437043ae62104df4692e11b8b1
+
+Tuy nhiên smart contract này chưa được verify nên source code còn tồn tại dạng byte code, ta cần thêm 1 bước verify nữa trước khi sử dụng.
+```
+truffle run verify NiftMemoryDust@0xaae5fc57ae9b2702e165224bc7b4f700ba698b22 --network testnet
+truffle run verify NiftMemoryTreasure@0xe3864fb24851ea437043ae62104df4692e11b8b1 --network testnet
+```
+
+Xong! Giờ đã có hai smart contract này chạy trên binance smart chain testnet. Bước tiếp theo chúng ta sẽ viết giao diện hiển thị thông tin 2 loại token này.
+
 # 3. Hiện thực hóa
