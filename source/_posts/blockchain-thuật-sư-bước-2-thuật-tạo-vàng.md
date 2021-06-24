@@ -34,7 +34,7 @@ import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.1.0/contr
 
 contract NiftMemoryDust is ERC20 {
     
-    constructor() ERC20("Nift memory dust", "NIFT") {
+    constructor() ERC20("Nift memory dust", "NIFT-DUST") {
         _mint(msg.sender,1000 * 1e18);
     }
 }
@@ -51,5 +51,22 @@ Giải thích: Đây chính là cách để tạo ra token ERC20 trên các mạ
 Cất ống nghiệm một sang một bên, ngài đưa mở hộp và thả vào nồi nấu một vài loại hợp chất để tạo ra: Bông hoa của sự tư do, chiếc lá của sự giàu có và giọt nước của sự hạnh phúc.
 
 ```
+// SPDX-License-Identifier: MIT
 
+pragma solidity ^0.8.0;
+
+import "https://github.com/OpenZeppelin/openzeppelin-contracts/blob/v4.1.0/contracts/token/ERC721/extensions/ERC721URIStorage.sol";
+
+contract NiftMemoryDust is ERC721URIStorage {
+    
+    constructor() ERC721("Nift memory treasury", "NIFT-TREASURY") {
+        _mint(msg.sender,1);
+        _mint(msg.sender,2);
+        _mint(msg.sender,3);
+        
+        _setTokenURI(1, "https://ylgr.github.io/nift-memory/treasury/freedom.json");
+        _setTokenURI(2, "https://ylgr.github.io/nift-memory/treasury/wealth.json");
+        _setTokenURI(3, "https://ylgr.github.io/nift-memory/treasury/happiness.json");
+    }
+}
 ```
