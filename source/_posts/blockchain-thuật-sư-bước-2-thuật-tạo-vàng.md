@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Blockchain thuật sư - Bước 2: Thuật tạo vàng"
-date: 2021-06-23T17:12:31.867Z
+date: 2021-06-24T02:22:28.117Z
 top_image: /images/uploads/71347093_p0.jpg
 tags:
   - blockchain
@@ -25,7 +25,7 @@ Câu chuyện kể về ở một vương quốc nọ tên là Nift, một nơi 
 
 Nhà giả kim tiến vào bên chiếc nồi chế quen thuộc [Remix](https://remix.ethereum.org/), bắt đầu tỉ mỉ chế ra 1000 đơn vị Nift memory dust (ERC20 token). Đây là công thức chế tạo:
 
-```
+```solidity
 // SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.0;
@@ -50,7 +50,7 @@ Giải thích: Đây chính là cách để tạo ra token ERC20 trên các mạ
 
 Cất ống nghiệm một sang một bên, ngài đưa mở hộp và thả vào nồi nấu một vài loại hợp chất để tạo ra: Bông hoa của sự tư do, chiếc lá của sự giàu có và giọt nước của sự hạnh phúc.
 
-```
+```solidity
 // SPDX-License-Identifier: MIT
 
 pragma solidity ^0.8.0;
@@ -83,7 +83,7 @@ Note: Bạn cần cài đặt [Node.js](https://nodejs.org/en/download/package-m
 
 Đầu tiên ta khởi tạo project bằng cách [unbox template](https://www.trufflesuite.com/boxes/react).
 
-```
+```shell
 mkdir nift-memory
 cd nift-memory
 truffle unbox react 
@@ -91,7 +91,7 @@ truffle unbox react
 
 Khởi tạo npm và thêm 1 vài dependency cần thiết cho việc dev.
 
-```
+```shell
 npm init
 npm install @openzeppelin/contracts
 npm install @truffle/hdwallet-provider
@@ -101,7 +101,7 @@ npm install truffle-plugin-verify --save-dev
 
 Tạo file .env tại root của project và truyền giá trị PRIVATE_KEY và BSCSCANAPIKEY (sử dụng cho verify contract). Sau đó setup lại config trong file: truffle-config.js
 
-```
+```javascript
 const path = require("path");
 const HDWalletProvider = require('@truffle/hdwallet-provider');
 require('dotenv').config();
@@ -161,7 +161,7 @@ Chuyển code sang và thay đổi lại cấu trúc import của mỗi file, th
 
 Tạo file 1_deploy_contract.js trong migrations và thêm code deploy:
 
-```
+```javascript
 const NiftMemoryDust = artifacts.require("./NiftMemoryDust.sol");
 const NiftMemoryTreasure = artifacts.require("./NiftMemoryTreasure.sol");
 
@@ -177,7 +177,7 @@ Giờ ta sẽ triển khai deploy smart contract này lên binance smart chain t
 
 Đầu tiên ta cần [faucet BNB](https://testnet.binance.org/faucet-smart). Khi đã có BNB và .env đã setup đẩy đủ thông tin.
 
-```
+```shell
 truffle migrate --network testnet
 ```
 
@@ -188,7 +188,7 @@ NiftMemoryTreasure: https://testnet.bscscan.com/address/0xe3864fb24851ea437043ae
 
 Tuy nhiên smart contract này chưa được verify nên source code còn tồn tại dạng byte code, ta cần thêm 1 bước verify nữa trước khi sử dụng.
 
-```
+```shell
 truffle run verify NiftMemoryDust@0xaae5fc57ae9b2702e165224bc7b4f700ba698b22 --network testnet
 truffle run verify NiftMemoryTreasure@0xe3864fb24851ea437043ae62104df4692e11b8b1 --network testnet
 ```
@@ -201,7 +201,7 @@ Tiếp đến ta sẽ sử dụng React có sẵn khi unbox để dựng giao di
 
 Setting lại package.json
 
-```
+```json
 {
   "name": "client",
   "version": "0.1.0",
@@ -248,7 +248,7 @@ Lưu ý: thông tin homepage cần sửa lại theo thông tin project của b�
 
 Nhắc lệnh vào client và cài đặt những dependency cần thiết:
 
-```
+```shell
 cd client
 npm install
 ```
@@ -259,7 +259,7 @@ npm install
 
 Import bootstrap vào index.js
 
-```
+```javascript
 import React from 'react';
 import ReactDOM from 'react-dom';
 import 'bootstrap/dist/css/bootstrap.min.css';
@@ -276,7 +276,7 @@ serviceWorker.unregister();
 
 Tạo lại file App.js và code:
 
-```
+```javascript
 import React, {Component} from "react";
 import NiftMemoryDust from "./contracts/NiftMemoryDust.json";
 import NiftMemoryTreasure from "./contracts/NiftMemoryTreasure.json";
@@ -360,7 +360,7 @@ export default App;
 
 Build và deploy lên github-page:
 
-```
+```shell
 npm run build
 npm run deploy
 ```
