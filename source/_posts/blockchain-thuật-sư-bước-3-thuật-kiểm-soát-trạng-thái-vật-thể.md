@@ -95,7 +95,7 @@ contract NiftMemoryHeart is ERC721URIStorage, Ownable {
 
 ```
 
-Giải thích: Smart contract khởi tạo một NFT khác nhưng không init từ đầu mà được "mint" qua function craft khi người dùng sở hữu cả 3 NFT của bước 2. Function revert cho phép người dùng quay ngược quá trình này để tạo trở lại thành 3 loại NFT cũ và "burn" NFT mới đi. FUnction withdrawDust làm nhiệm vụ như tên gọi của nó, hãy tưởng tượng contract này là shop của bạn thì hàm này đóng vai trò rút tiền trong shop.
+Giải thích: Smart contract khởi tạo một NFT khác nhưng không init từ đầu mà được "mint" qua function craft khi người dùng sở hữu cả 3 NFT của bước 2. Function revert cho phép người dùng quay ngược quá trình này để tạo trở lại thành 3 loại NFT cũ và "burn" NFT mới đi. Function withdrawDust làm nhiệm vụ như tên gọi của nó, hãy tưởng tượng contract này là shop của bạn thì hàm này đóng vai trò rút tiền trong shop.
 
 Viết ấn chú xong, ta tạo file migration:
 
@@ -117,4 +117,6 @@ truffle run verify NiftMemoryHeart@0x5175EBC5503acE38860821365b37Ac58b7BB624c --
 
 Và ta-da, contract đã được hiện thực hóa: https://testnet.bscscan.com/address/0x5175EBC5503acE38860821365b37Ac58b7BB624
 
-# 2. Khắc nhập, khắc xuất và những phong ấn ràng buộc
+# 2. Chế tạo cùng phân giải, đưa chúng vào cùng phong ấn
+
+Dù rằng với nhiêu kia, ta đã có thể thao tác chế tạo hay phân giải Nift Heart, ta vẫn cần một interface để dễ dàng sử dụng bởi bất kỳ ai. Quay lại với client
