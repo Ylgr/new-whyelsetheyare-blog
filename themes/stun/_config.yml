@@ -55,6 +55,7 @@ menu:
   categories: /categories/ || fas fa-layer-group
   tags: /tags/ || fas fa-tags
   about: /about/ || fas fa-address-book
+  en: http://en.whyelsetheyare.tk/ || fas fa-language
   # You can add a secondary menu like follow.
   # xxx1: javascript:; || fa(s|r|l|d|b) fa-xxx
 
