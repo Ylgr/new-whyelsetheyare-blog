@@ -1,14 +1,14 @@
 ---
-layout: blog
-title: Giới thiệu về Toái Nguyệt ký sự
-date: 2021-12-14T0:26:41.089Z
-description: Prologue
-top_image: /images/uploads/78491682_p0.jpg
 toc: true
+layout: blog
+title: Ylgr introduction
+date: 2021-12-14T0:26:41.089Z
+top_image: /images/uploads/78491682_p0.jpg
 tags:
   - introduction
 categories:
   - introduction
+description: Prologue
 ---
 *"Cause I've been living life right like I could just die any minute.*
 
