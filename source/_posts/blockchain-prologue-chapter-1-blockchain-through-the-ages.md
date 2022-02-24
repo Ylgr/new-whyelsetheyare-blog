@@ -29,10 +29,12 @@ Before 1971, US dollar is gold standard. It mean that the price itself changes d
 
 ![](/images/uploads/paper-money-promises.jpg)
 
-
-
 That policy mean now central banks or SEC can print any amount of money without have enough gold to protect it price. From that time to now, a huge amount of money was print make US dollar price down. Over time with one dollar, the amount of redemption value will decrease and you will buy less items because of that. Fortunately, thanks to the development of science and technology, life is getting easier and easier with a small amount of money.
 
 # 2. A wild Blockchain is appear
 
 ## 2.1. First generation: store value
+
+![](/images/uploads/satoshi-nakamoto-01.png)
+
+Around the end of 2008, an anonymous person calling himself Satoshi Nakamoto
