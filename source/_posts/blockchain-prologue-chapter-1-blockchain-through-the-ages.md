@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Blockchain Prologue: Chapter 1 - Blockchain through the ages"
-date: 2022-02-21T17:02:10.974Z
+date: 2022-02-28T11:53:07.530Z
 top_image: /images/uploads/ebefzbywwaadrkh.jpg
 tags:
   - blockchain
@@ -37,4 +37,24 @@ That policy mean now central banks or SEC can print any amount of money without 
 
 ![](/images/uploads/satoshi-nakamoto-01.png)
 
-Around the end of 2008, an anonymous person calling himself Satoshi Nakamoto
+Around the end of 2008, an anonymous person calling himself Satoshi Nakamoto was present a thing called Bitcoin. It is the first Cryptocurrency in the world and it was backed by some special infrastructure called Blockchain. Blockchain is a technology created by combine 3 main another technology: Cryptography, p2p network and game theory.
+
+## 2.2. Second generation: Smart contract
+
+In the life we have some kind of information can be public, it hardly to be change and if it changed, it need to be record change condition, date time to change somewhere. When you think about that, a traditional database like Oracle, MySQL, MongoDB, ... might be a good choice but it's still not be really good solution when it come to trust issues.
+
+In 2012, a youth developer named Vitalik Buterin propose an idea is that kind of information can be store in Bitcoin. Most of Bitcoin community at that time not accept that idea, so he need to find other solution to replace it. In 2015, he again propose that idea but in other Blockchain network called Ethereum that he is a Co-founder of it.
+
+In order to write custom data to network, user and developer need to follow a rule that written by code named Smart contract. And smart contract code was compile to byte code and store directly in Ethereum network.
+
+## 2.3. Third generation: Scaling
+
+Day by day, business is bigger and Ethereum's prices too. So many people have tried to find some solution to have a better Blockchain for their business like faster network, a lower prices, bigger data store, ...
+
+And Proof of Work too, when you come to Bitcoin and Ethereum, problem is how it cost energy to be decentralize. So many other consensus solutions have been implemented like Proof of Stake, Delegrated Proof of Stake, Byzantine Fault Tolerance, …
+
+# 3. The future of innovation
+
+At the present, we have so many solution is applied in to the Blockchain like: Defi, Gamefi, decentralized autonomous organization (DAO), ... And in the future, it will combine to many others industry in Metaverse and others that we still don't know about that.
+
+So what do you think?
