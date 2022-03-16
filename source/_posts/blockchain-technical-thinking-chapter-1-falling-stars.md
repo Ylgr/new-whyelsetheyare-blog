@@ -37,3 +37,18 @@ The biggest problem of EOS is fee to buy CPU. If you pay to have and account and
 
 Although IOTA is not really count to be a Blockchain, it is still been a statue in Crypto world that make some special move to change mindset of Blockchain world.
 
+When world around with IOTA, you can't use some kind of keypair created by Cryptography algorithm like: Ed25519 or Secp256k1. However, it still has key pair to interact with its network.
+
+To push a transaction to network, you need to verify other two existed transaction that order by an algorithm called The tangle.
+
+Well, I ran out of things to talk about it because I don't work with it much to understand deeper.
+
+
+#3. A research lab from National University of Singapore
+
+Finally, my story will end up with a symbol from NUS named Zilliqa.
+
+Nothing much to talk about it. It's just a bunch of new technology that need you study to use it. Although it has time shine in top 20, it isn't like other 2 above used to be in top 10.
+
+Not enough popularity,at least with me to spend time to study. However, I still want to talk about it because of respecting the ideals of development team.
+
