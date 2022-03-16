@@ -13,7 +13,7 @@ In Blockchain world, like in the real world: The age comes and go away. If you c
 
 In this topic, I will tell you how incredible technology theory has come and shining but still turning to dust later.
 
-<-- more -->
+<!-- more -->
 
 # 1. A legend about $4 billion in ICO
 
