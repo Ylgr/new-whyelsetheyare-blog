@@ -11,7 +11,7 @@ categories:
 ---
 Live through the years, if you live enough you may know that price of almost everything around you has increased in prices. Why that happen, by the other look, you may know the truth is that not exactly like that. It is because of devaluation of fiat currency aka inflation.
 
-<-- more -->
+<!-- more -->
 
 # 1. Story about the collapse of the economic
 
