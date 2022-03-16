@@ -27,4 +27,13 @@ To archive it, EOS has a special mechanism called account. Instead of using addr
 
 Not stoping there, EOS also has other magnanimity called Ram. When using smart contract on EOS, you need to use Ram instead of CPU/bandwidth. When come to use a dapp, firstly it will decrease Ram from its dapp first, then using your own Ram.
 
-Both of Ram and Cpu has mechanism refine itself in the next day.
+Both of Ram and CPU has mechanism refine itself in the next day.
+
+About the consensus, EOS is one of the first platforms using DPOS. At some point, DPoS has been discussed in community that it work like centralize system. However, thanks to DPoS, many and many better Blockchain consensus developed because of it and become more effectively.
+
+The biggest problem of EOS is fee to buy CPU. If you pay to have and account and stake some EOS that not enough CPU gains to have another transaction, you can't do anything otherwise. The only way to resolve this problem is using some Smart contract that stake EOS for you to gain more EOS or call others person have enough EOS and bandwidth to stake EOS for you.
+
+#2. The tangle
+
+Although IOTA is not really count to be a Blockchain, it is still been a statue in Crypto world that make some special move to change mindset of Blockchain world.
+
