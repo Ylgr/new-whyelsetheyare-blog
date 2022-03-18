@@ -2,7 +2,7 @@
 layout: blog
 title: "Blockchain Technical Thinking: Chapter 1 - The falling stars"
 date: 2022-03-15T11:53:07.530Z
-top_image: /images/uploads/82028519_p0.jpg
+top_image: /images/uploads/82028519_p0.png
 tags:
   - blockchain
   - technical
@@ -11,7 +11,9 @@ categories:
 ---
 In Blockchain world, like in the real world: The age comes and go away. If you concern that why Bitcoin and Ethereum still be the king that lead crypto market and economic. Well, time will answer you.
 
-In this topic, I will tell you how incredible technology theory has come and shining but still turning to dust later.
+This series will be my suggestions at the time of writing for someone who still finding a way to deal with Blockchain for something goods.
+
+In this chapter, I will tell you how incredible technology theory has come and shining but still turning to dust later.
 
 <!-- more -->
 
@@ -33,7 +35,7 @@ About the consensus, EOS is one of the first platforms using DPOS. At some point
 
 The biggest problem of EOS is fee to buy CPU. If you pay to have and account and stake some EOS that not enough CPU gains to have another transaction, you can't do anything otherwise. The only way to resolve this problem is using some Smart contract that stake EOS for you to gain more EOS or call others person have enough EOS and bandwidth to stake EOS for you.
 
-#2. The tangle
+# 2. The tangle
 
 Although IOTA is not really count to be a Blockchain, it is still been a statue in Crypto world that make some special move to change mindset of Blockchain world.
 
@@ -44,7 +46,7 @@ To push a transaction to network, you need to verify other two existed transacti
 Well, I ran out of things to talk about it because I don't work with it much to understand deeper.
 
 
-#3. A research lab from National University of Singapore
+# 3. A research lab from National University of Singapore
 
 Finally, my story will end up with a symbol from NUS named Zilliqa.
 
