@@ -15,4 +15,7 @@ categories:
   - NFT
 ---
 Recently, NFT is called many times and it is easy to know that it can become a solution for artist's authority. This series will talk about engineering how to build an ecosystem (in terms of development) of NFT.
+
 <!-- more -->
+
+1. Definition
