@@ -26,12 +26,96 @@ Theo dòng lịch sử loài người, từ thời các bộ lạc đầu tiên 
 
 # 1. Khai mở thế giới: Biển mở
 
+![](https://therecord.media/wp-content/uploads/2022/01/OpenSea-1280x720.jpg)
+
 Biển mở (Opensea) là hệ sinh thái NFT nổi nhất trên Ethereum. Tại sao nó được nhắc đến ở đây. Bản chất khi làm việc trên hệ sinh thái EVM, mọi thứ đều (nên được) Opensource nên khác với môi trường phát triển phần mềm truyền thống, ta có thể dựa trên những source code của những sản phẩm đã thành công trên thị trường để phát triển thành sản phẩm của riêng mình.
 
 ## 1.1. Các thành phần của biển mở
 
 Biển mở chia là hai đối tượng NFT chính là ERC721 và ERC1155. Nôm na là NFT duy nhất và NFT số lượng giới hạn đó, với đối tượng lại chia thành 2 cách dùng đó là vật phẩm và lootbox. Tóm lại là có 4 use case có thể sử dụng trong opensea.
 
+![Cấu tạo của Opensea](/images/uploads/opensea.png "Cấu tạo của Opensea")
+
+Về mặt smart contract, Opensea bao gồm 7 smart contract như hình. Nếu diễn tả theo use case thì ở mỗi đối tượng chỉ cần một contract creature/creature accessory là được use case sáng tác tác phẩm nghệ thuật, 2 use case còn lại cần 3 hoặc 4 smart contract như hình đã mô tả. Tóm lại 4 use case đó là:
+
+1. NFT duy nhất.
+2. NFT duy nhất bị giấu thuộc tính trong lootbox.
+3. NFT số lượng giới hạn.
+4. NFT số lượng giới hạn đặt trong các lootbox mở ra ngẫu nhiên.
+
+### 1.2. Mô tả hoạt động
+
+#### 1.2.1. NFT duy nhất
+
+#### 1.2.2. NFT duy nhất bị giấu thuộc tính trong lootbox
+
+#### 1.2.3. NFT số lượng giới hạn
+
+#### 1.2.4. NFT số lượng giới hạn đặt trong các lootbox mở ra ngẫu nhiên
+
+# 2. Triển khai: Biển mở
+
+Github: https://github.com/ProjectOpenSea/opensea-creatures
+
+Đầu tiên cần clone repo, sau đó thì deploy lên. Tham khảo bài này nha: https://whyelsetheyare.tk/2021/06/24/blockchain-thu%E1%BA%ADt-s%C6%B0-b%C6%B0%E1%BB%9Bc-2-thu%E1%BA%ADt-t%E1%BA%A1o-v%C3%A0ng/
+
+Deploy thành công, ta sẽ có smart contract như setting ở hình cấu tạo của Opensea. 
+
+Tạo một project ReactJs và bắt đầu thử nghịch nào!
+
+Đầu tiên là khai báo biến contract:
 
 
 
+```
+  const [contract, setContract] = useState({
+    creature: null,
+    creatureFactory: null,
+    creatureLootBox: null,
+    creatureAccessory: null,
+    lootBoxRandomness: null,
+    creatureAccessoryLootBox: null,
+    creatureAccessoryFactory: null,
+  })
+
+```
+
+Và setup:
+
+
+
+```
+      setContract({
+        creature: new web3.eth.Contract(CreatureAbi,creatureAddress),
+        creatureFactory: new web3.eth.Contract(CreatureFactoryAbi,creatureFactoryAddress),
+        creatureLootBox: new web3.eth.Contract(CreatureLootBoxAbi,creatureLootBoxAddress),
+        creatureAccessory: new web3.eth.Contract(CreatureAccessoryAbi,creatureAccessoryAddress),
+        lootBoxRandomness: new web3.eth.Contract(LootBoxRandomnessAbi,lootBoxRandomnessAddress),
+        creatureAccessoryLootBox: new web3.eth.Contract(CreatureAccessoryLootBoxAbi,creatureAccessoryLootBoxAddress),
+        creatureAccessoryFactory: new web3.eth.Contract(CreatureAccessoryFactoryAbi,creatureAccessoryFactoryAddress),
+      })
+```
+
+Nếu là use case 1 và 3, việc sử dụng sẽ đơn giản là gọi hàm mint và setup thêm các thông tin cần thiết. Với setup full chức năng khi deploy thì quyền owner bây giờ bị chuyển cho factory nên use case 1 và 3 không còn khả dụng, chúng ta sẽ trực tiếp với use case 2 và 4.
+
+Với use case 2, ta cần quan tâm tới các hàm:
+
+- Mint NFT (với option 0 để tạo 1 NFT, option 1 để tạo nhiều NFT và option 2 để tạo lootbox)
+
+```await contract.creatureFactory.methods.mint(option,address).send({from: currentAddress});```
+
+- Unpack Lootbox (để công khai thuộc tính của NFT)
+
+```await contract.creatureLootBox.methods.unpack(tokenID).send({from: currentAddress});```
+
+Với use case 4, các hàm tương tự cần quan tâm:
+
+```await contract.creatureAccessoryFactory.methods.mint(option,address, amount, "0x0").send({from: currentAddress});```
+
+```await contract.creatureAccessoryLootBox.methods.unpack(id,currentAddress, 3).send({from: currentAddress});```
+
+Lưu ý với use case 4, mặc định factory ko có quyền chuyển NFT được in ra tại địa chỉ deploy nên ta cần thêm 1 lệnh approve để có thể mint và unpack:
+
+```await contract.creatureAccessory.methods.setApprovalForAll(creatureAccessoryFactoryAddress, true).send({from: currentAddress});```
+
+Nay đến đây đã, bước tiếp theo chúng ta sẽ cùng tìm hiểu cách setup một sàn giao dịch để bán các NFT này và bí mật của chúng.
