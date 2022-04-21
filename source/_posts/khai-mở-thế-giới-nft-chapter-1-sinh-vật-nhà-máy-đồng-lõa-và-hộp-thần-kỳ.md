@@ -47,23 +47,37 @@ Về mặt smart contract, Opensea bao gồm 7 smart contract như hình. Nếu 
 
 #### 1.2.1. NFT duy nhất
 
-Bạn vừa tạo ra một bức tranh, giờ bạn cần bán nó. Hãy bán nó trên .... Opensea vì nó sẽ là duy nhất, v là NFT.
+Bạn vừa tạo ra một bức tranh, giờ bạn cần bán nó. Hãy bán nó trên .... Opensea vì nó sẽ là duy nhất ... là NFT.
 
 ![](/images/uploads/copy-of-nft-creation.png)
 
+User cần upload dữ liệu NFT lên Cloud và trả phí giao dịch, sau đó update lại uri của NFT nên smart contract.
 
 
 #### 1.2.2. NFT duy nhất bị giấu thuộc tính trong lootbox
 
+Giờ giả sử bạn có tạo một NFT, tuy nhiên bạn giấu thông tin thật của NFT đó để làm người nhạn bất ngờ 1 phen. Use case này sinh ra để phục vụ việc đó.
+
 ![](/images/uploads/copy-of-nft-creation-1-.png)
+
+Gần như tương tự như use case 1 nhưng ở use case này thông tin được đẩy lên Cloud trước khi điền vào NFT, khi unpack NFT lootbox đó ra thì id sinh ra sẽ cần khớp với dữ liệu định sẵn trên Cloud sẽ trở thành món quà bất ngờ.
 
 #### 1.2.3. NFT số lượng giới hạn
 
+Giờ bạn là một idol, muốn bán ra một vài album có chữ ký riêng của bạn thì phải làm sao, use case này sẽ là dành cho bạn.
+
 ![](/images/uploads/copy-of-nft-creation-2-.png)
+
+Khác với use case 1, khi upload dữ liệu lên có thể không cần cập nhật thông tin này lên Blockchain luôn mà chỉ cần khi có nhu cầu giao bán, ta mới "in" ra NFT đó với một số lượng hợp lý và treo lên sàn là được.
 
 #### 1.2.4. NFT số lượng giới hạn đặt trong các lootbox mở ra ngẫu nhiên
 
+Bạn có biết các tựa game gacha đình đám? Hay hỳ hục trong thế giới Battle Royal với những hòm mà không biết sẽ mở ra thứ gì. Use case này sinh ra với cơ chế hoạt động như vậy đó.
+
 ![](/images/uploads/copy-of-nft-creation-3-.png)
+
+Nếu ai thường chơi game online thì chắc hẳn khá quen nhỉ. Dành cho những ai chưa rõ thì có nhiều item được đánh giá trị khác nhau, mỗi item đều là các NFT và được thiết kế qua những lootbox. Quản trị viên sẽ tiến hành setting thông số cho từng loại lootbox như số lượng vật phẩm mở ra, tỷ lệ từng vật phẩm hay tỷ lệ đảm bảo.
+Điểm hay của cơ chế này là tính random theo Blockchain. Nghĩa là phụ thuộc vào thời điểm transaction được đưa vào Block và seed của người mở gần nhất. Nếu lượng người mở gần như liên tục thì việc cố tính xác suất gần như không thể.
 
 # 2. Triển khai: Biển mở
 
