@@ -47,11 +47,23 @@ Về mặt smart contract, Opensea bao gồm 7 smart contract như hình. Nếu 
 
 #### 1.2.1. NFT duy nhất
 
+Bạn vừa tạo ra một bức tranh, giờ bạn cần bán nó. Hãy bán nó trên .... Opensea vì nó sẽ là duy nhất, v là NFT.
+
+![](/images/uploads/copy-of-nft-creation.png)
+
+
+
 #### 1.2.2. NFT duy nhất bị giấu thuộc tính trong lootbox
+
+![](/images/uploads/copy-of-nft-creation-1-.png)
 
 #### 1.2.3. NFT số lượng giới hạn
 
+![](/images/uploads/copy-of-nft-creation-2-.png)
+
 #### 1.2.4. NFT số lượng giới hạn đặt trong các lootbox mở ra ngẫu nhiên
+
+![](/images/uploads/copy-of-nft-creation-3-.png)
 
 # 2. Triển khai: Biển mở
 
@@ -65,8 +77,6 @@ Tạo một project ReactJs và bắt đầu thử nghịch nào!
 
 Đầu tiên là khai báo biến contract:
 
-
-
 ```
   const [contract, setContract] = useState({
     creature: null,
@@ -77,12 +87,9 @@ Tạo một project ReactJs và bắt đầu thử nghịch nào!
     creatureAccessoryLootBox: null,
     creatureAccessoryFactory: null,
   })
-
 ```
 
 Và setup:
-
-
 
 ```
       setContract({
@@ -100,22 +107,22 @@ Nếu là use case 1 và 3, việc sử dụng sẽ đơn giản là gọi hàm 
 
 Với use case 2, ta cần quan tâm tới các hàm:
 
-- Mint NFT (với option 0 để tạo 1 NFT, option 1 để tạo nhiều NFT và option 2 để tạo lootbox)
+* Mint NFT (với option 0 để tạo 1 NFT, option 1 để tạo nhiều NFT và option 2 để tạo lootbox)
 
-```await contract.creatureFactory.methods.mint(option,address).send({from: currentAddress});```
+`await contract.creatureFactory.methods.mint(option,address).send({from: currentAddress});`
 
-- Unpack Lootbox (để công khai thuộc tính của NFT)
+* Unpack Lootbox (để công khai thuộc tính của NFT)
 
-```await contract.creatureLootBox.methods.unpack(tokenID).send({from: currentAddress});```
+`await contract.creatureLootBox.methods.unpack(tokenID).send({from: currentAddress});`
 
 Với use case 4, các hàm tương tự cần quan tâm:
 
-```await contract.creatureAccessoryFactory.methods.mint(option,address, amount, "0x0").send({from: currentAddress});```
+`await contract.creatureAccessoryFactory.methods.mint(option,address, amount, "0x0").send({from: currentAddress});`
 
-```await contract.creatureAccessoryLootBox.methods.unpack(id,currentAddress, 3).send({from: currentAddress});```
+`await contract.creatureAccessoryLootBox.methods.unpack(id,currentAddress, 3).send({from: currentAddress});`
 
 Lưu ý với use case 4, mặc định factory ko có quyền chuyển NFT được in ra tại địa chỉ deploy nên ta cần thêm 1 lệnh approve để có thể mint và unpack:
 
-```await contract.creatureAccessory.methods.setApprovalForAll(creatureAccessoryFactoryAddress, true).send({from: currentAddress});```
+`await contract.creatureAccessory.methods.setApprovalForAll(creatureAccessoryFactoryAddress, true).send({from: currentAddress});`
 
 Nay đến đây đã, bước tiếp theo chúng ta sẽ cùng tìm hiểu cách setup một sàn giao dịch để bán các NFT này và bí mật của chúng.
