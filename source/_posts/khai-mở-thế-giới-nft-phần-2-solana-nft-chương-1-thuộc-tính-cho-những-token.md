@@ -2,7 +2,7 @@
 layout: blog
 title: "Khai mở, thế giới NFT - Phần 2: Solana NFT - Chương 1: Thuộc tính cho
   những token"
-date: 2022-04-22T10:54:04.892Z
+date: 2022-04-25T09:40:22.361Z
 top_image: /images/uploads/26309160_p0.jpg
 tags:
   - nft
