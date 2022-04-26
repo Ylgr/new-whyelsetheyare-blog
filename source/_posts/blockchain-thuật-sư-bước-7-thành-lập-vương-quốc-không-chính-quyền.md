@@ -35,7 +35,211 @@ Hãy tưởng tượng thế này nha, bạn có một tập khách hàng muốn
 
 Thử nghĩ xem, cộng đồng Shiba Inu sẽ vui sướng mức nào nếu có thể tự d chuyển SHIB  qua lại mà chỉ dùng SHIB làm phí giao dịch chứ.
 
-
-
 # 2. Xây dựng hệ sinh thái nào
 
+Bây giờ kịch bản thế này nha, chúng ta có 4 ví bao gồm: 
+
+* Ví master chịu trách nhiệm quả lý token, in thêm token, ...
+* Ví fee payer: Ví duy nhất chứ SOL chịu bất kỳ khoản phí giao dịch nào xảy ra trong hệ thống.
+* Ví user 1.
+* Ví user 2.
+
+Chúng ta sẽ tạo một đồng token mới và các user chỉ cần dùng đồng token đó (tạm gọi là bic) cho phí giao dịch thôi.
+
+***Giờ thì bắt đầu nào.***
+
+Setup lib:
+
+```
+import {Col, Row, Label, Button, Collapse, Card, CardBody, CardText, CardTitle, CardLink, Input} from 'reactstrap';
+import {web3, Wallet, BN} from '@project-serum/anchor';
+import Base58 from 'base-58';
+import { TOKEN_PROGRAM_ID, Token, u64, ASSOCIATED_TOKEN_PROGRAM_ID, NATIVE_MINT, AccountLayout, MintLayout } from "@solana/spl-token";
+import {
+    Keypair,
+    SystemProgram,
+} from '@solana/web3.js';
+```
+
+Khai báo các biến
+```
+    const testFeePayerSecretKey = 'testFeePayerSecretKey'
+    const testMasterSecretKey = 'testMasterSecretKey'
+    const [newKeypair, setNewKeypair] = useState({})
+    const [balances, setBalances] = useState([0,0,0,0])
+    const [bicInfo, setBicInfo] = useState({})
+    const [signatureLog, setSignatureLog] = useState([]);
+    const [isShowLog, setIsShowLow] = useState(false);
+    const [nftImg, setNftImg] = useState(null)
+
+    const [nftCollection, setnftCollection] = useState([]);
+    const [auctionNFT, setAuctionNFT] = useState('')
+
+    const testFeePayerWallet = new Wallet(web3.Keypair.fromSecretKey(Base58.decode(testFeePayerSecretKey)))
+    const testMasterWallet = new Wallet(web3.Keypair.fromSecretKey(Base58.decode(testMasterSecretKey)))
+    const connection = new web3.Connection("https://api.devnet.solana.com/") // dev net
+
+    
+    const user1Wallet = new Wallet(web3.Keypair.fromSecretKey(Base58.decode('user1Wallet')))
+    
+    const user2Wallet = new Wallet(web3.Keypair.fromSecretKey(Base58.decode('user2Wallet')))
+    const bicSpl = new Token(connection, new web3.PublicKey('bicSpl'), TOKEN_PROGRAM_ID, testFeePayerWallet.payer)
+
+    const maxValue = new u64("18446744073709551615")
+
+    const storeAdminSecretKey = 'storeAdminSecretKey';
+    const storeAdminWallet = new Wallet(web3.Keypair.fromSecretKey(Base58.decode(storeAdminSecretKey)));
+```
+
+Tạo token Bic:
+
+```
+    const createBic = async () => {
+        const mint = web3.Keypair.generate();
+        const instructions = [
+            web3.SystemProgram.createAccount({
+                fromPubkey: testFeePayerWallet.publicKey,
+                newAccountPubkey: mint.publicKey,
+                space: 82,
+                lamports: await connection.getMinimumBalanceForRentExemption(82),
+                programId: TOKEN_PROGRAM_ID,
+            }),
+            Token.createInitMintInstruction(
+                TOKEN_PROGRAM_ID,
+                mint.publicKey,
+                0,
+                testMasterWallet.publicKey,
+                null
+            ),
+        ];
+        let tx = new web3.Transaction().add(...instructions)
+        tx.feePayer = testFeePayerWallet.payer.publicKey
+
+        tx.recentBlockhash = (await connection.getRecentBlockhash()).blockhash
+
+        tx.partialSign(testFeePayerWallet.payer)
+
+        tx.partialSign(mint)
+
+        const rawTx = tx.serialize()
+        const receipt = await connection.sendRawTransaction(rawTx)
+        console.log('receipt: ', receipt)
+        alert(`create bic success bic address: ${mint.publicKey.toBase58()}`)
+    }
+```
+
+Thêm một function phục vụ việc chuyển BIC nữa trong đó có 1 instruction thu 1 BIC làm phí giao dịch thay cho SOL:
+
+```
+    const transferBIC = async (fromWallet, toAddress, amount) => {
+        const fromAssociatedAddress = await bicSpl.getOrCreateAssociatedAccountInfo(fromWallet.publicKey)
+        const toAssociatedAddress = await bicSpl.getOrCreateAssociatedAccountInfo(toAddress)
+        const feePayerAssociatedAddress = await bicSpl.getOrCreateAssociatedAccountInfo(testFeePayerWallet.publicKey)
+        const instructions = [
+            Token.createTransferInstruction(
+                bicSpl.programId,
+                fromAssociatedAddress.address,
+                toAssociatedAddress.address,
+                fromWallet.publicKey,
+                [],
+                amount
+            ),
+            Token.createTransferInstruction(
+                bicSpl.programId,
+                fromAssociatedAddress.address,
+                feePayerAssociatedAddress.address,
+                fromWallet.publicKey,
+                [],
+                1
+            ),
+
+        ];
+        let tx = new web3.Transaction().add(...instructions)
+
+        tx.feePayer = testFeePayerWallet.payer.publicKey
+
+        tx.recentBlockhash = (await connection.getRecentBlockhash()).blockhash
+        tx.partialSign(testFeePayerWallet.payer)
+        tx.partialSign(fromWallet.payer)
+
+        const receipt = await connection.sendTransaction(tx, [fromWallet.payer, testFeePayerWallet.payer], {skipPreflight: false})
+        console.log('receipt: ', receipt)
+    }
+```
+
+Giờ ta muốn force transfer token giữa các user thì sao, thêm function forceTransfer nào:
+
+```
+const forceTransfer = async (fromAddress, toAddress, amount) => {
+        const fromAssociatedAddress = await bicSpl.getOrCreateAssociatedAccountInfo(fromAddress)
+        const toAssociatedAddress = await bicSpl.getOrCreateAssociatedAccountInfo(toAddress)
+
+        const instructions = [
+            Token.createTransferInstruction(
+                bicSpl.programId,
+                fromAssociatedAddress.address,
+                toAssociatedAddress.address,
+                testMasterWallet.publicKey,
+                [testMasterWallet.payer],
+                amount
+            )
+        ]
+
+        let tx = new web3.Transaction().add(...instructions)
+
+        tx.feePayer = testFeePayerWallet.payer.publicKey
+
+        tx.recentBlockhash = (await connection.getRecentBlockhash()).blockhash
+        tx.partialSign(testFeePayerWallet.payer)
+        tx.partialSign(testMasterWallet.payer)
+        const rawTx = tx.serialize()
+
+        const receipt = await connection.sendRawTransaction(rawTx)
+        console.log('receipt: ', receipt
+
+    }
+```
+
+Lúc mới khởi tạo thì lượng BIC bằng 0 nên ta cần 1 function để mint chứ:
+
+```
+    const mintBic = async (toWallet, amount) => {
+        const toAssociatedAddress = await bicSpl.getOrCreateAssociatedAccountInfo(toWallet.publicKey)
+
+        // Mint and approve at once
+        const instructions = [
+            Token.createMintToInstruction(
+                bicSpl.programId,
+                bicSpl.publicKey,
+                toAssociatedAddress.address,
+                testMasterWallet.publicKey,
+                [],
+                amount
+            ),
+            Token.createApproveInstruction(
+                bicSpl.programId,
+                toAssociatedAddress.address,
+                testMasterWallet.publicKey,
+                toWallet.publicKey,
+                [],
+                maxValue
+            ),
+        ];
+
+        let tx = new web3.Transaction().add(...instructions)
+
+        tx.feePayer = testFeePayerWallet.payer.publicKey
+
+        tx.recentBlockhash = (await connection.getRecentBlockhash()).blockhash
+        tx.partialSign(testFeePayerWallet.payer)
+        tx.partialSign(testMasterWallet.payer)
+        tx.partialSign(toWallet.payer)
+        const rawTx = tx.serialize()
+
+        console.log('rawTx: ', rawTx)
+        const receipt = await connection.sendRawTransaction(rawTx)
+        console.log('receipt: ', receipt)
+    }
+```
+
+Thành quả trải nghiệm: https://ylgr.github.io/solana-dapp-simulator/
