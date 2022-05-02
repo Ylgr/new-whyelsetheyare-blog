@@ -32,7 +32,7 @@ We have some kind of good platform today:
 
 - Solana: Not so familiar with most Developer because of using Rust. So it will be more difficult to find Developers. In terms of application, it will help you have a better experience in both of speed and transaction fees. You can easily create a Token with SPL but for another specify business, it will be more difficultly. By the way, not like EVM, most time you don't need to deploy new logic to networks, you can just using some existed program that has logic you want and create a PDA of it to use it. Not only that, on this platform you will have other type of transactions that make you can group many child transaction (called instructions) at once to active it. Just image you create a token and an application on Solana, then you can create a frontend to use application and at the same time, you collect transaction fee, pay Sol for network fee instead of user, make user interact with application.
 
-Here is a comparison table of platforms:
+Here is a comparison table of platforms (Price example: ETH - 500$, BNB - 2$, MATIC - 3$, SOL - 200$):
 
 |             | Ethereum    | Binance Smart Chain | Matic | Solana |
 | ----------- | ----------- | --------------------| ------| -------|
