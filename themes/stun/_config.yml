@@ -297,7 +297,7 @@ author:
     # Optional values: turn | shake
     animation: shake
   # Your favorite motto.
-  motto: Neil Nguyen
+  motto: Broken Moon
 
 # Social links
 # Value before `||` is the target link, value after `||` is the name of FontAwesome icon.
