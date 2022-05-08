@@ -26,3 +26,9 @@ Well, like how to develop an app, there are some framework that help us to make 
 
 ![](https://i0.wp.com/coinyuppie.com/wp-content/uploads/2022/04/1649651900175615.png)
 
+The first thing that I want to share about is Cosmos or Cosmos SDK. It is based on Tendermint and integrates some more feature like: DPoS consensus, Slashing, Governance, ...
+
+It is the first thing exist of 3 Blockchain framework that I like to talk about. It's architect is Hub and Zones where each Blockchain using it may become a Zone. Each Zone can talk to each other by Inter‐Blockchain Communication Protocol (IBC) so it makes them more easier to have a Brige to others and that is main point of this architect. So if you want to build a chain that can easily have a Brige to some existed chain using Cosmos SDK like: Terra, Kava, ... Then this is the best choice for that.
+
+
+
