@@ -2,7 +2,7 @@
 layout: blog
 title: "Blockchain Technical Thinking: Chapter 4 - When can we count to be a
   Blockchain developer? Pt. II"
-date: 2022-05-08T18:32:02.901Z
+date: 2022-05-09T15:48:35.155Z
 top_image: /images/uploads/82028519_p0.png
 tags:
   - blockchain
@@ -40,14 +40,10 @@ In Avalanche, we have some set of validators, each set is called a Subnet. A Sub
 
 # 4. Level 4 - Hardcore chain developer
 
+![](https://i.redd.it/eyz3kqy3ffh41.jpg)
+
 Yep, still a chain developer, but it is godlike level.
 
 Just image if you use those 3 framework to build a chain, but need to chain the core how it work, it will be more than just adding features. Or maybe even harder that you don't based on anything, just grab every part like Cryptography, consensus, p2p network, ... just to building a new one.
 
 Okay, so we now all know the path of a Blockchain developer or to be true, just my opinion about some level that a Blockchain developer may take part in. So, what next.
-
-
-
-
-
-
