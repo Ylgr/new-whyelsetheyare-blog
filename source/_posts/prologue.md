@@ -1,7 +1,7 @@
 ---
 toc: true
 layout: blog
-title: Ylgr introduction
+title: WhyElseTheyAre's Blog introduction
 date: 2021-12-14T0:26:41.089Z
 top_image: /images/uploads/78491682_p0.jpg
 tags:
