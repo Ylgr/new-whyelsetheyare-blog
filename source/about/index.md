@@ -1,9 +1,9 @@
 ---
-layout: "about"
-type: "about"
-title: "About"
+layout: about
+title: About
+type: about
 ---
-Tu Nguyen (just call me Yu) - a Blockchain engineer and like to be a storyteller. 
+Tu Nguyen (or Broken Moon) - a Blockchain engineer and like to be a storyteller. 
 
 Believing in the "Singularity" should be both excited about a future mixed with fantasy and future science and afraid of one day being abandoned by the world, so I always try to find potential development directions for myself.
 
