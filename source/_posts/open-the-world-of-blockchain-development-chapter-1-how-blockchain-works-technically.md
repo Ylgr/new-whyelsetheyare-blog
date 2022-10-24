@@ -11,13 +11,17 @@ tags:
 categories:
   - blockchain
 ---
+You are a developer and have some questions about how Blockchain technically works and why it is better than a traditional database in some situations that make people feel overwhelmed about that about that?
+
+I﻿f your answer is yes, it mean this series is suitable for you.
+
+<!-- more -->
+
 # The principle
 
 ## How data are stored
 
 Let's talk about how a database works. It store some kind of value and you can read, create, update or delete a record inside if you have permission. When you read, it doesn't affect the value inside but if you want to create, update or delete a record, you need to do a transaction to change it. How Blockchain stores data in the same way, but more specifically as a record called state and transactions are stored as a log in the Block. Like this:
-
-<﻿!-- more -->
 
 ![](https://ethereum.org/static/85d784391401f89209d3bcc51e0ea677/302a4/tx-block.png)
 
