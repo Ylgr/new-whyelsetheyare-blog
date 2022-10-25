@@ -21,7 +21,7 @@ I﻿f your answer is yes, it mean this series is suitable for you.
 
 ## How data are stored
 
-Let's talk about how a database works. It store some kind of value and you can read, create, update or delete a record inside if you have permission. When you read, it doesn't affect the value inside but if you want to create, update or delete a record, you need to do a transaction to change it. How Blockchain stores data in the same way, but more specifically as a record called state and transactions are stored as a log in the Block. Like this:
+Let's talk about how a database works. It stores some kind of value that you can read, create, update or delete a record inside if you have permission. When you read the record, it doesn't affect the value inside but if you want to create, update or delete a record, you need to do a transaction to change it. How Blockchain stores data in the same way, but more specifically as a record called state and transactions are stored as a log in the Block. Like this:
 
 ![](https://ethereum.org/static/85d784391401f89209d3bcc51e0ea677/302a4/tx-block.png)
 
@@ -45,7 +45,7 @@ There are some popular framework to build this:
 
 ### P﻿ublic Blockchain
 
-I﻿n another hand, if you don't have any sensitive information. Public Blockchain will be the better choice.
+On the other hand, if you don't have any sensitive information. Public Blockchain will be the better choice.
 
 Typically, the Public Blockchain is maintained by the community and its own organization. So it needs some mechanism to protect it from spamming, the solution is transaction fees.
 
