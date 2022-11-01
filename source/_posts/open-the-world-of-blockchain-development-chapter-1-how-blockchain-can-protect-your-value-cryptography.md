@@ -64,3 +64,10 @@ Finally, to make sure it secure, here is it secure level if you want to know:
 ![](/images/uploads/hd-wallet.drawio.png)
 
 Here it is, can you see ECDSA? It stand for Elliptic Curve Digital Signature Algorithm and that is where we are using ECC.
+
+Okay, let's explain this diagram:
+
+1. Before going to the HD wallet phase there a part that we beginning, start with 12 words called mnenonic or seed phase, by using bip39 algorithm we make it into 32 bytes seeds.
+2. Then, that 32 bytes seeds going through a derivation path depend on that type of token like m/44'/0'/0 for Bitcoin or m/44'/60'/0 for Ethereum and then we have the result as a Private key.
+3. P﻿rivate key using ECDSA like Secp256k1, ED25519, ... to calculator Public key.
+4. T﻿hen Public key just using some more unique way depend on each type of Blockchain to make address more specific for it. Of cause if a signature create by Private key, it still have Public key inside to verify with address using to executed.
