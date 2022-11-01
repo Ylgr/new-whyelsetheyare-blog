@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: Open the world of Blockchain development - Chapter 1:Understand the math
-  inside Cryptography
+title: "Open the world of Blockchain development - Chapter 3: Understand the
+  math inside Cryptography"
 date: 2022-10-30T15:05:59.781Z
 top_image: /images/uploads/101934929_p0.jpg
 tags:
