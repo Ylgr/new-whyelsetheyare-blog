@@ -53,6 +53,10 @@ And of cause, this formula has some limit time if it cause on special case.
 
 ![](https://matt-rickard.ghost.io/content/images/2022/03/Screen-Shot-2022-03-26-at-10.20.58-AM.png)
 
+Finally, to make sure it secure, here is it secure level if you want to know:
+
+![](https://matt-rickard.ghost.io/content/images/2022/03/Screen-Shot-2022-03-26-at-11.22.01-AM.png)
+
 # Back to the Blockchain, where is it?
 
 ﻿Based on HD wallet architect, there are many wallet follow this rule:
