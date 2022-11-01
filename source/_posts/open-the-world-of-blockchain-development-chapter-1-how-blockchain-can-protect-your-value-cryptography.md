@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: "Open the world of Blockchain development - Chapter 1: How Blockchain can
-  protect your value (cryptography)"
+title: Open the world of Blockchain development - Chapter 1:Understand the math
+  inside Cryptography
 date: 2022-10-30T15:05:59.781Z
 top_image: /images/uploads/101934929_p0.jpg
 tags:
@@ -29,4 +29,34 @@ It like Alice using Bob locker to lock her message on the box then send it to Bo
 
 # Go deeper
 
-# More deeper
+Let's talk about a little bit about mathematical, the cryptography that stand behind of the mechanism above is Elliptic Curve Cryptography (ECC). It is a way of one-way math problem, easy to solve it one way, the other way is intractable. For example if you have a question about how 23144*12343, the answer will be easy one on calculator, it is 285666392. Then how to you revert from 285666392 to 23144 multiply by 12343? Impossible, right. 
+
+ECC is not working exactly like that, for the easy one we could use the form:
+
+> y2 = x3 + ax + b
+
+This formula mean a straight line can only catch the curve line at most 3 point. We have P point then Q point on the line of curve, you will have R point like this:
+
+![](https://matt-rickard.ghost.io/content/images/2022/03/Screen-Shot-2022-03-26-at-10.20.33-AM.png)
+
+Then you drop R to other side of curve line to have R' like this:
+
+![](https://matt-rickard.ghost.io/content/images/2022/03/Screen-Shot-2022-03-26-at-10.20.40-AM.png)
+
+Now we connect two point P and R', it will create another straight line that can cross will curve line in new point that called S, then make S' and loop it over and over again then stop at a number of unknown time.
+
+We have P . Q -> R then P . R' -> S then over and over again.
+
+In this case we have P as public one n time of dot is private one so it will be challenge to find Q point if you only know the result.
+
+And of cause, this formula has some limit time if it cause on special case.
+
+![](https://matt-rickard.ghost.io/content/images/2022/03/Screen-Shot-2022-03-26-at-10.20.58-AM.png)
+
+# Back to the Blockchain, where is it?
+
+﻿Based on HD wallet architect, there are many wallet follow this rule:
+
+![](/images/uploads/hd-wallet.drawio.png)
+
+Here it is, can you see ECDSA? It stand for Elliptic Curve Digital Signature Algorithm and that is where we are using ECC.
