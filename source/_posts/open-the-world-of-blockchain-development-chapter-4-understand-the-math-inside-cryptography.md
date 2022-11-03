@@ -35,7 +35,9 @@ If there are two transaction with same valid input that send to the network at t
 
 So never have double spending on Blockchain when network still be in protect.
 
-# The nonce
+# Account state (or nonce)
+
+![](https://www.horizen.io/blockchain-academy/assets/post_files/technology/expert/4.1-utxo-vs-account/dag-vs-database_M.jpg)
 
 Another strategy to prevent double spending is using nonce. It is like versioning on management on software development. Nonce is a number of each account typically start from 0 and increase by one through each transaction (there are some exception of nonce start from another number).
 
