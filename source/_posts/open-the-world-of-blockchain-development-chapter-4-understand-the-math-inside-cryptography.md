@@ -43,4 +43,18 @@ This nonce is different with Block nonce, it is exist on each address, using to 
 
 ![](https://i.stack.imgur.com/OItKD.png)
 
+By using this solution, the Blockchain can save the balance of each address as state, so it will be more client friendly.
+
+Now, the question is how you can revert a valid transaction that you created by accident? Just using the same nonce number, add some more fee, then send it to the network as soon as possible because typically, this type of Blockchain is more effetely on Block verify.
+
 # The speed aka the timestamp
+
+In some situation, the problem about speed is raise so some type of Blockchain follow this architect to solve this problem.
+
+The most powerful point of this architect is it available to execute transaction of same address async.
+
+Below is an image that explain well how this solution works:
+
+![](https://cryptopotato.com/wp-content/uploads/2021/10/img1_solana.jpg)
+
+If you want a Blockchain that have best TPS for your business, go for this type.
