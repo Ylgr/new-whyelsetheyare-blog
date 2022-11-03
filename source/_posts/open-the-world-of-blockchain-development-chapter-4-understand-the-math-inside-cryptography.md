@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: "Open the world of Blockchain development - Chapter 4: Understand the
-  math inside Cryptography"
+title: "Open the world of Blockchain development - Chapter 4: The unique (of
+  transaction)"
 date: 2022-11-01T18:15:26.545Z
 top_image: /images/uploads/konachan.com-258963-sample.jpg
 tags:
@@ -17,14 +17,26 @@ Decentralized means having many of the same things: Same in data, same in progra
 
 # First solution UTXO
 
-I﻿n the first generation of Blockchain, beside of Bitcoin, we have many other Blockchains that follow by this solution rule: UTXO (stand for Unspent transaction output).
+In the first generation of Blockchain, beside of Bitcoin, we have many other Blockchains that follow by this solution rule: UTXO (stand for Unspent transaction output).
 
 The information that UTXO have is: input, output, timestamp, hash.
 
 Typically, that type of Blockchain don't save your balance to query, so you need to get sum number of your UTXO in your account to get the number.
 
+This mechanism worked based on money flow. UTXO created from mining, it is block reward and sum of transaction fees on that block. It is then splitted and reduced by some as a fee in transaction, so it means money from whoever had it initially.
 
+![](https://www.researchgate.net/publication/352182532/figure/fig2/AS:1032055378935812@1623072585707/The-example-of-Bitcoin-UTXO-transaction-model.png)
+
+UTXO can be splitted or grouped. When you create a transaction send coin to another address, you need to collect one or more UTXO in input that enough for both of send amount and transaction fee, then create new UTXO in output at least one for destination address, and another one for yourself if have any amount left.
+
+If there are two transaction with same valid input that send to the network at the same time, the transaction executed first will reject another one. The priority to execute transaction depending on fee pay for each transaction data so more fee and less data meaning transaction will be executed faster. So if you create a transaction by accident, you can still revert it if it still not in Block by create another one same input then change it destination and add some more fee to it.
+
+![](https://coinsutra.com/wp-content/uploads/2017/06/Bitcoin-Confirmations-e1498718174774.jpg)
+
+So never have double spending on Blockchain when network still be in protect.
 
 # The nonce
+
+
 
 # The speed aka the timestamp
