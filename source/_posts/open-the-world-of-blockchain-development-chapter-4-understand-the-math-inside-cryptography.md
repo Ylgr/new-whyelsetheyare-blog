@@ -58,3 +58,11 @@ Below is an image that explain well how this solution works:
 ![](https://cryptopotato.com/wp-content/uploads/2021/10/img1_solana.jpg)
 
 If you want a Blockchain that have best TPS for your business, go for this type.
+
+
+
+So, the last one is the best, right? Mostly but it still not that popular because it still need time to develop more feature to get more attention, of cause with other side like marketing or performance. Still:
+
+\-﻿ The first one is something that be a symbol because it is the reason why another one exist.
+
+\-﻿ The second one is still keep much value and importance ecosystem there. It make Blockchain be a famous thing for quite a time.
