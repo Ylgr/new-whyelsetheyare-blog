@@ -19,7 +19,7 @@ Decentralized means having many of the same things: Same in data, same in progra
 
 In the first generation of Blockchain, beside of Bitcoin, we have many other Blockchains that follow by this solution rule: UTXO (stand for Unspent transaction output).
 
-The information that UTXO have is: input, output, timestamp, hash.
+The information that UTXO have is: input, output, timestamp, hash, nonce.
 
 Typically, that type of Blockchain don't save your balance to query, so you need to get sum number of your UTXO in your account to get the number.
 
@@ -37,6 +37,10 @@ So never have double spending on Blockchain when network still be in protect.
 
 # The nonce
 
+Another strategy to prevent double spending is using nonce. It is like versioning on management on software development. Nonce is a number of each account typically start from 0 and increase by one through each transaction (there are some exception of nonce start from another number).
 
+This nonce is different with Block nonce, it is exist on each address, using to fill to transaction to detect the different of each transaction.
+
+![](https://i.stack.imgur.com/OItKD.png)
 
 # The speed aka the timestamp
