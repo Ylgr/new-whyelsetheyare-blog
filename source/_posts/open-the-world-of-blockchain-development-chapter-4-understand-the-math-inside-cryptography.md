@@ -17,10 +17,14 @@ Decentralized means having many of the same things: Same in data, same in progra
 
 # First solution UTXO
 
+I﻿n the first generation of Blockchain, beside of Bitcoin, we have many other Blockchains that follow by this solution rule: UTXO (stand for Unspent transaction output).
+
+The information that UTXO have is: input, output, timestamp, hash.
+
+Typically, that type of Blockchain don't save your balance to query, so you need to get sum number of your UTXO in your account to get the number.
+
 
 
 # The nonce
-
-
 
 # The speed aka the timestamp
