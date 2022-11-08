@@ -26,9 +26,27 @@ The strategy is: First, we need to choose a decision is attack or retreat. For e
 
 # The proof
 
+Beside of BFT, we have others mechanism to keep the network trustless. They are: Proof of work (Bitcoin, 1st Blockchain generation), Proof of stake (Ethereum, 2nd generation), Delegated proof of stake (EOS, 3rd generation) and Proof of history (Solana).
+
 ## Proof of work
 
+Blockchain's most known consensus is Proof of Work. An overview of how it works in the image below:
+
+![](https://capital.com/files/glossary/-infographics-Proof-of-Work-PoW-.png)
+
+The unique of PoW is miners need computer calculator power to find a hash for closing Block as soon as possible. This is requirement to have Block reward and transaction fee of that Block, complexity of find nonce to close Block hash has been updated once each two weeks to make sure miners sill took time to verify Block be close with block time.
+
+The different thing with BFT is transaction only need 51% of approved network power to mark as success, if any Block that not follow mechanism of Blockchain, they will be fork to another Blockchain. So this solution problem is be forked many time because it is not be okay with fault node within.
+
 ## Proof of stake
+
+Because required much power on calculating the nonce to close the Block, PoW be criticism because of power washing or non-environment friendly. Proof of Stake or PoS is a solution for this problem.
+
+![](https://capital.com/files/glossary/-infographics-Proof-of-Stake-PoS-.png)
+
+The main different between PoW and PoS is miner now need to stake their native token to have chance to be selected as Block's validator to get Block reward and transaction fees of that Block.
+
+Now the game is changed, instead of calculating power race now become staking power race so it still keep the network safe as PoW and now reduce the cost of maintain network, is it? Not really, because of not requiring calculating power mean less people willing to run a Node. But we still have trade off for this problem is the network can be smother than PoW and it have more applicability to practice than PoW
 
 ## Delegated proof of stake
 
