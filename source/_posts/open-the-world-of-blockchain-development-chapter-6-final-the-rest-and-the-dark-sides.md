@@ -36,3 +36,23 @@ This is placed to put pending transaction, then miner will try searching for bes
 # Maximal extractable value (MEV)
 
 ![](https://blog.chainalysis.com/wp-content/uploads/2022/08/Episode-17-Website-Graphic-1170x508.png)
+
+There is a dark forest in Blockchain, its location is mempool. 
+
+A story told about Dan Robinson accident find out an amount of token be stuck in one smart contract that can be withdraw the value of its around $12,000, and he know that dark forest is exist, so he needs to be careful when he trying to do that. He plans with his friend about this topic, then they trying to withdraw that stuck token but end up with a failed transaction. A transaction willing to pay more fee than them a little bit in the same Block is the one which withdraw success that asset.
+
+## How MEV works
+
+![](https://blog.chain.link/wp-content/uploads/2021/05/MEV-Diagram_V2.png)
+
+MEV work by two participants:
+
+\-﻿ Searcher: Who trying to search MEV opportunity and willing to pay a higher transaction fee to get profit more than fee used.
+
+\-﻿ Miner: responsibility to priority the higher fee transaction, then make it be verified faster than the originals.
+
+## How many types of MEV
+
+Detail in the image below:
+
+![](https://pbs.twimg.com/media/Fbvb9RhUIAIqIZ_?format=jpg&name=large)
