@@ -5,8 +5,9 @@ type: about
 ---
 Tu Nguyen (or Broken Moon) - a Blockchain engineer and like to be a storyteller. 
 
-Believing in the "Singularity" should be both excited about a future mixed with fantasy and future science and afraid of one day being abandoned by the world, so I always try to find potential development directions for myself.
+In 2018, a junior developer first got to know Blockchain technology, liked its policy and tried to join the Blockchain developer force as the meaning of his life. But it was not easy for him because of his lack of experience.
 
-Likes to talk about the world as a wonderland where life isn't as it should be but you have the right to live it the way you dream.
+He spent a year self-taught Blockchain at a time when the market was down, quite difficult, there were times when he lost faith in his passion. After that, the crypto market rallied making him even more confident in his choice. The experience at that time helped him have many opportunities on his career path. Things can't last forever, the winter of the market has come again, he writes this blog to recount his journey, share experiences and most importantly learn for a new challenge ahead.
 
-Focusing on Blockchain expertise, ready to listen and share Blockchain solutions. For a great revolution of this field to the world.
+
+"The best way to learn is to teach it"
