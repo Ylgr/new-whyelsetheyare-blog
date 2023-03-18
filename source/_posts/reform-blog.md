@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "Reforming the blog"
-date: 2022-03-19T02:30:07.530Z
+date: 2023-03-19T02:30:07.530Z
 top_image: /images/uploads/reform-blog.jpg
 tags:
 - skill-interdisciplinary
