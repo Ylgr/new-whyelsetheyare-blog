@@ -109,7 +109,7 @@ Another use case for events is to detect issues and debug your contract. By emit
 
 Overall, events are a powerful feature in Solidity that can help you control the flow of logic and detect issues in your smart contract. By using events effectively, you can build more robust and reliable contracts that are better equipped to handle real-world scenarios.
 
-# R﻿educe complex
+# Reduce complex
 
 One important principle to keep in mind when writing Solidity code (or any code, for that matter) is to keep it simple. This is often referred to as the KISS principle, which stands for "Keep it simple, stupid."
 

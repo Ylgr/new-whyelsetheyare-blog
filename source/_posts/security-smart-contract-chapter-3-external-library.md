@@ -22,9 +22,9 @@ The most basic and gas-saving pattern. By using Ownable library, contract implem
 
 This pattern supports some use case to manage owner:
 
-\-﻿ Transfer owner: by using this feature, executive address gives up ownership (if has) to another address.
+\- Transfer owner: by using this feature, executive address gives up ownership (if has) to another address.
 
-\-﻿ Renounce ownership: this feature makes executive address give up ownership to address zero, meaning give up ownership permanently.
+\- Renounce ownership: this feature makes executive address give up ownership to address zero, meaning give up ownership permanently.
 
 The advance of this library is 2StepOwnerable, it needs one more step on address be transfer ownership to confirm. Meaning before address be transfer ownership confirm, transferring address still has ownership on Smart Contract.
 
