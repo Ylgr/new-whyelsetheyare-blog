@@ -55,7 +55,7 @@ menu:
   categories: /categories/ || fas fa-layer-group
   tags: /tags/ || fas fa-tags
   about: /about/ || fas fa-address-book
-  vi: http://whyelsetheyare.tk/ || fas fa-language
+  vi: http://whyelsetheyare.com/ || fas fa-language
   # You can add a secondary menu like follow.
   # xxx1: javascript:; || fa(s|r|l|d|b) fa-xxx
 
@@ -288,7 +288,7 @@ author:
     # In theme directory (source/images): /images/avatar.png
     # In site directory (source/uploads): /uploads/avatar.png
     # You can also use a link of image.
-    url: /images/hikari.png
+    url: /images/Steampunk-5.png
     # If true, the avatar would be displayed in a circle.
     rounded: true
     # Opacity of avatar (value: 0 ~ 1)
