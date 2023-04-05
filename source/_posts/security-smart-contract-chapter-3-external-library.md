@@ -4,7 +4,7 @@ title: "Security smart contract - Chapter 3: External library"
 date: 2023-04-05T11:14:19.662Z
 top_image: /images/uploads/76405513_p0.jpg
 tags:
-  - smartcontractsecurity
+  - smart-contract-security
 categories:
   - Smart contract
 ---
