@@ -20,7 +20,7 @@ This is a traditional topic to check if a server can be inconsistently. In its s
 
 ![](https://upload.wikimedia.org/wikipedia/commons/thumb/f/fc/Byzantine_Generals.png/1920px-Byzantine_Generals.png)
 
-In computer science field, we will make an election by using [ECC](https://en.whyelsetheyare.tk/2022/10/30/open-the-world-of-blockchain-development-chapter-1-how-blockchain-can-protect-your-value-cryptography/) to make unique signed vote of each general that can be easy verify (hard to fake).
+In computer science field, we will make an election by using [ECC](https://en.whyelsetheyare.com/2022/10/30/open-the-world-of-blockchain-development-chapter-1-how-blockchain-can-protect-your-value-cryptography/) to make unique signed vote of each general that can be easy verify (hard to fake).
 
 The strategy is: First, we need to choose a decision is attack or retreat. For example, we would choose attack, then make an election with other generals. If number of votes that have same result as attack more than 2/3+1 vote, then attack is a final decision. Otherwise, the election is stuck there so they will do nothing and continue the siege.
 
