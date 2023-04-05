@@ -83,7 +83,7 @@ Nếu ai thường chơi game online thì chắc hẳn khá quen nhỉ. Dành ch
 
 Github: https://github.com/ProjectOpenSea/opensea-creatures
 
-Đầu tiên cần clone repo, sau đó thì deploy lên. Tham khảo bài này nha: https://whyelsetheyare.tk/2021/06/24/blockchain-thu%E1%BA%ADt-s%C6%B0-b%C6%B0%E1%BB%9Bc-2-thu%E1%BA%ADt-t%E1%BA%A1o-v%C3%A0ng/
+Đầu tiên cần clone repo, sau đó thì deploy lên. Tham khảo bài này nha: https://whyelsetheyare.com/2021/06/24/blockchain-thu%E1%BA%ADt-s%C6%B0-b%C6%B0%E1%BB%9Bc-2-thu%E1%BA%ADt-t%E1%BA%A1o-v%C3%A0ng/
 
 Deploy thành công, ta sẽ có smart contract như setting ở hình cấu tạo của Opensea. 
 
