@@ -46,8 +46,14 @@ T﻿o be clear, autotasks is automatic scripts that can be triggered by differen
 
 **Webhook** is external trigger help you call scripts from other platform like chat, app or something else. Some examples of webhook-based autotask use cases include:
 
-2. Some examples of webhook-based autotask use cases include:
-
 * Triggering smart contract actions based on user interactions with a web application or DApp, such as voting, staking, or withdrawing funds.
 * Responding to external API events, such as price updates, real-time data changes, or social media activity.
 * Integrating with third-party services, like oracles or data providers, to update the smart contract based on external events.
+
+**Sentinel** is next component we will mention, in this scenario we only need to know it is a script be triggered by event on-chain. Some examples of Sentinel-based autotask use cases include:
+
+* Monitoring and responding to specific smart contract events, such as token transfers, contract interactions, or function calls.
+* Reacting to on-chain conditions, like price fluctuations, token balances, or liquidity pool changes, by triggering actions like liquidations or rebalancing.
+* Implementing automated security measures, such as pausing the contract, notifying developers, or rolling back transactions if suspicious activity or vulnerabilities are detected.
+
+## Sentinel
