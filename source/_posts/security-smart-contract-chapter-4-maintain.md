@@ -62,17 +62,34 @@ When thinking about maintainers, the things be most people thinking about is not
 
 There are three type of Sentinel that is: 
 
-- Contract Sentinels use on-chain data to monitor smart contract activity and trigger alerts or actions based on specific events or conditions. Some use cases for Contract Sentinels include:
-    - Detecting and alerting developers to unusual or potentially malicious activity, such as large token transfers, repeated failed transactions, or unauthorized function calls.
-    - Triggering automated responses to specific events or conditions, like pausing the contract, rolling back transactions, or executing corrective actions.
-    - Monitoring key performance indicators (KPIs) and providing insights into the contract's usage, such as user growth, transaction volume, or token distribution.
+* Contract Sentinels use on-chain data to monitor smart contract activity and trigger alerts or actions based on specific events or conditions. Some use cases for Contract Sentinels include:
 
-- Forta Sentinels use off-chain data, such as transaction data, logs, events, and external data sources, to analyze and detect anomalies, vulnerabilities, or suspicious activity in smart contracts. Some use cases for Forta Sentinels include:
-    - Identifying and alerting developers to potential vulnerabilities, such as reentrancy attacks, front-running, or price oracle manipulation.
-    - Analyzing historical transaction data to detect patterns or trends that could indicate issues, like excessive gas usage, spam transactions, or address concentration.
-    - Integrating with third-party services, like oracles, data providers, or security scanners, to enhance the security analysis and threat detection capabilities.
+  * Detecting and alerting developers to unusual or potentially malicious activity, such as large token transfers, repeated failed transactions, or unauthorized function calls.
+  * Triggering automated responses to specific events or conditions, like pausing the contract, rolling back transactions, or executing corrective actions.
+  * Monitoring key performance indicators (KPIs) and providing insights into the contract's usage, such as user growth, transaction volume, or token distribution.
+* Forta Sentinels use off-chain data, such as transaction data, logs, events, and external data sources, to analyze and detect anomalies, vulnerabilities, or suspicious activity in smart contracts. Some use cases for Forta Sentinels include:
 
-- Forta Local Mode Sentinels create a simulated environment for developers to run and test Forta Sentinels during the development process, allowing them to identify and fix potential security and performance issues before deployment.  Some use cases for Forta Local Mode Sentinels include:
-    - Running security checks and vulnerability scans during the development process to catch potential issues early.
-    - Testing the smart contract against known attack vectors and edge cases to ensure it behaves as expected and is resistant to common threats.
-    - Analyzing the smart contract's performance and gas usage to optimize its efficiency and reduce deployment costs.
+  * Identifying and alerting developers to potential vulnerabilities, such as reentrancy attacks, front-running, or price oracle manipulation.
+  * Analyzing historical transaction data to detect patterns or trends that could indicate issues, like excessive gas usage, spam transactions, or address concentration.
+  * Integrating with third-party services, like oracles, data providers, or security scanners, to enhance the security analysis and threat detection capabilities.
+* Forta Local Mode Sentinels create a simulated environment for developers to run and test Forta Sentinels during the development process, allowing them to identify and fix potential security and performance issues before deployment.  Some use cases for Forta Local Mode Sentinels include:
+
+  * Running security checks and vulnerability scans during the development process to catch potential issues early.
+  * Testing the smart contract against known attack vectors and edge cases to ensure it behaves as expected and is resistant to common threats.
+  * Analyzing the smart contract's performance and gas usage to optimize its efficiency and reduce deployment costs.
+
+## Logging
+
+The last thing I want to mention by I need, it is Logging - a premium feature.
+
+Every execute of above components: Admin, Relay, Autotasks and Sentinel has logs and it will be stored here. The main feature of this component is forward all these logs to another destination to analyst like Slunk or Datadog. Or just use it directly.
+
+With Logging, you can:
+
+* Store logs of all executed actions in the Defender components for audit and analysis purposes.
+* Forward logs to external platforms like Splunk or Datadog for more advanced analytics, visualization, and monitoring capabilities.
+* Identify patterns and trends in smart contract usage, performance, and security to inform future development and business strategies.
+* Diagnose issues, vulnerabilities, or anomalies in smart contract behavior by analyzing historical logs and events.
+* Ensure compliance with regulations and industry best practices by maintaining a comprehensive audit trail of all smart contract activities.
+
+In summary, the Logging feature in OpenZeppelin Defender provides a comprehensive overview of all past activities within the platform. It enables developers and maintainers to analyze and optimize their smart contracts, enhance security, and make data-driven decisions to support their project's growth and success.
