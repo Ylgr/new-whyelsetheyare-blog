@@ -57,3 +57,22 @@ T﻿o be clear, autotasks is automatic scripts that can be triggered by differen
 * Implementing automated security measures, such as pausing the contract, notifying developers, or rolling back transactions if suspicious activity or vulnerabilities are detected.
 
 ## Sentinel
+
+When thinking about maintainers, the things be most people thinking about is notification, right? This role be responsibility by Sentinel.
+
+There are three type of Sentinel that is: 
+
+- Contract Sentinels use on-chain data to monitor smart contract activity and trigger alerts or actions based on specific events or conditions. Some use cases for Contract Sentinels include:
+    - Detecting and alerting developers to unusual or potentially malicious activity, such as large token transfers, repeated failed transactions, or unauthorized function calls.
+    - Triggering automated responses to specific events or conditions, like pausing the contract, rolling back transactions, or executing corrective actions.
+    - Monitoring key performance indicators (KPIs) and providing insights into the contract's usage, such as user growth, transaction volume, or token distribution.
+
+- Forta Sentinels use off-chain data, such as transaction data, logs, events, and external data sources, to analyze and detect anomalies, vulnerabilities, or suspicious activity in smart contracts. Some use cases for Forta Sentinels include:
+    - Identifying and alerting developers to potential vulnerabilities, such as reentrancy attacks, front-running, or price oracle manipulation.
+    - Analyzing historical transaction data to detect patterns or trends that could indicate issues, like excessive gas usage, spam transactions, or address concentration.
+    - Integrating with third-party services, like oracles, data providers, or security scanners, to enhance the security analysis and threat detection capabilities.
+
+- Forta Local Mode Sentinels create a simulated environment for developers to run and test Forta Sentinels during the development process, allowing them to identify and fix potential security and performance issues before deployment.  Some use cases for Forta Local Mode Sentinels include:
+    - Running security checks and vulnerability scans during the development process to catch potential issues early.
+    - Testing the smart contract against known attack vectors and edge cases to ensure it behaves as expected and is resistant to common threats.
+    - Analyzing the smart contract's performance and gas usage to optimize its efficiency and reduce deployment costs.
