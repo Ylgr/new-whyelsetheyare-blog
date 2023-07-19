@@ -18,7 +18,7 @@ Bài viết này là hành trang kiến thức để tiếp cận Stable coin d�
 
 # Tại sao ta cần Stable coin?
 
-![img.png](../images/uploads/sdfahsfae.png)
+![](/images/uploads/sdfahsfae.png)
 
 ## Stable là gì?
 
@@ -39,7 +39,7 @@ Stable coin là cryptocurrency có lực mua ổn định (stable) vì bản th�
 Vậy nên, tiền là một phần không thể thiếu trong cuộc sống của chúng ta. Và stable coin là phiên bản Crypto của tiền trong thế giới Crypto. Để thanh toán, lưu giữ giá trị ổn định và tính toán giá trị theo cách mà Crypto hoạt động.
 
 # Xác định loại Stable coin
-![img.png](../images/uploads/img123122.png)
+![](/images/uploads/img123122.png)
 Có nhiều cách phân loại Stable coin được nhìn nhận tùy theo ý hiểu của mỗi người. Bản thân tôi sẽ không phân loại Stable coin theo hướng những chiếc hộp kiểu Paxos là do giá trị tiền trong ngân hàng, USDT là do cty bảo lãnh, ... Tôi dùng các xác định Stable coin theo bản chất của nó.
 
 ## Xác định 1: Điểm ổn định
@@ -61,7 +61,7 @@ Một stablecoin phải đảm bảo được có thứ gì đó hoạt động 
 Nghe thì có vẻ Algorithmic Stablecoin thực sự rất rủi ro, đừng trách thuật toán đó là thứ thuần khiết nhất ở cách hoạt động, tham khảo thêm tại [đây](https://dirtroads.substack.com/p/-40-pruning-memes-algo-stables-are)
 
 Đây là một hình minh hoạt trong bài viết kể trên mô tả về tính thuật toán của Stablecoin:
-![img.png](../images/uploads/stable-dumb.png)
+![](/images/uploads/stable-dumb.png)
 
 ## Xác định 3: Mối quan hệ với công ty phát hành
 
@@ -71,7 +71,7 @@ Mối quan hệ với công ty phát hành giữa Stable coin và công ty chị
 - Exogenous: Là loại stablecoin không ảnh hưởng đến tài sản thế chấp. Ví dụ như USDC, DAI, ...
 - Endogenous: Là loại stablecoin ảnh hưởng đến tài sản thế chấp. Ví dụ như UST, ...
 
-![img.png](../images/uploads/exogenous-vs-endogenous.png)
+![](/images/uploads/exogenous-vs-endogenous.png)
 
 Đây chính là lý do chính khiến UST thất bại khi tài sản thế chấp là LUNA, loại tài sản có gá trị ảo, tạm thời cao trong mùa uptrend.
 
@@ -81,25 +81,25 @@ Vấn đề chính mà exogenous khó đạt được vì để có giá trị m
 
 ## DAI
 
-![img.png](../images/uploads/DAI.png)
+![](/images/uploads/DAI.png)
 
 DAI là một loại stablecoin lai giữa thuật toán và đảm bảo bởi tài sản Crypto.
 
 Khi người dùng deposit tài sản thế chấp vào MarkerDAO, người dùng sẽ in được DAI bằng với 50% giá trị của tài sản thế chấp đồng thời phải trả thêm 2% phí Stability Fee.
-![img.png](../images/uploads/mint-DAI.png)
+![](/images/uploads/mint-DAI.png)
 Bài toán đơn giản là nếu muốn nhận lại ETH đã deposit thì phải trả lại lượng DAI và thêm 2% Stability Fee. Quá trình Burn sẽ diễn ra.
-![img.png](../images/uploads/burn-DAI.png)
+![](/images/uploads/burn-DAI.png)
 Giờ giả sử bạn có DAI nhưng không buồn rút lại ETH, giá của ETH bạn nạp vô tụt 1 nửa. Quá trình thanh khoản diễn ra và toàn bộ lượng ETH bạn nạp vào không thể rút ra được nữa.
 
 ## USDC
 
-![img.png](../images/uploads/USDC.png)
+![](/images/uploads/USDC.png)
 
 Loại token này rất đơn giản. Đơn giản là tài khoản ngân hàng của công ty chủ quản có bao nhiêu tiền thì có bấy nhiều USDC được lưu hành.
 
 ## UST
 
-![img.png](../images/uploads/UST.png)
+![](/images/uploads/UST.png)
 
 UST là loại stablecoin được ổn định bởi thuật toán và đảm bảo bởi tài sản bao gồm USD, crypto bao gồm chính nó. Vấn đề chính của nó là bản thân là Endogenous nên khi bản thân nó ít % được đảm bảo bởi các pegged khiến nó kém hấp dẫn người dùng hold hơn. Khi người dùng không buồn hold LUNA nữa thì giá rớt làm khó hơn trong việc giữ pegged làm giảm người dùng hold làm giá rới và cứ thế UST đổ nát.
 
