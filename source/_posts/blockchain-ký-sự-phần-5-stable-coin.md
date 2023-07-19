@@ -12,6 +12,10 @@ Sự ổn định - maybe? Là điều mà tất cả mọi người đều mong
 
 Tôi còn nhớ như in sự kiện 1 năm về trước, cái thời mà một đế chế khổng lồ mang tên Terra với token LUNA và UST sụp đổ cùng với sự bốc hơi của hàng tỷ đô la. Cách nhìn của nhân loại về Stablecoin đã trở lên cẩn trọng hơn rất nhiều. Bài viết này là nền tảng để hiểu được bản chất của Stable coin, cách mà nó trở lên Stable để từ đó cảnh giác với những nguy hiểm có thể xảy ra với nó.
 
+Bài viết này là hành trang kiến thức để tiếp cận Stable coin dưới cách nhìn về bản chất của nó.
+
+<!-- more -->
+
 # Tại sao ta cần Stable coin?
 
 ![img.png](../images/uploads/sdfahsfae.png)
