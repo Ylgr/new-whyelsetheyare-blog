@@ -1,7 +1,7 @@
 ---
 layout: blog
-title: "Blockchain ký sự - Phần 4: Stable coin"
-date: 2023-07-19T15:40:18.759Z
+title: "Blockchain ký sự - Phần 5: Stable coin"
+date: 2023-07-19T08:41:40.577Z
 top_image: /images/uploads/stablecoin-credibility.png
 tags:
   - stablecoin
