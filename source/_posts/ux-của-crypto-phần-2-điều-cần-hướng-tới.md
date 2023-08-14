@@ -71,7 +71,7 @@ Thách thức hàng đầu mà nghiên cứu định nghĩa ra có thể giải 
 - **Giới hạn khu vực**: Nhiều khu vực được hợp pháp hóa nhưng nhiều khu vực không và tính hợp pháp hóa cũng khác nhau.
 
 ## Về mở rộng theo bề ngang nhóm người chấp nhận, việc tiếp cận với mobile là điểm chí mạng
-- Nhiều Crypto hoặc trải nghiệm DeFi hiện nay chỉ có hoặc chỉ tập trung ưu tiên vào website — đôi khi còn là đặc trưng với kích thước cho màn hình trên máy tính. VD: Khi người dùng lướt nền tảng NFT của Opensea, để thực sự mua được chúng họ phải thao tác trên máy tính. 
+- Nhiều Crypto hoặc trải nghiệm DeFi hiện nay chỉ có hoặc chỉ tập trung ưu tiên vào website — đôi khi còn là đặc trưng với kích thước cho màn hình trên máy tính. VD: Khi người dùng lướt nền tảng NFT của Opensea, để thực sự mua được chúng họ phải thao tác trên máy tính.
 - Tâm lý ưu tiên trải nghiệm trên máy tính có thể hình thành từ nhóm đối tượng người dùng sớm - những người có kiến thức nền tảng tài chính và bản thân họ cũng dùng máy tính để thuận tiện trong việc kiểm soát tài chính.
 - Nếu ngành công nghiệp muốn hình thành lứa đầu của nhóm người dùng phổ thông, ưu tiên vào nền tảng điện thoại nên là yếu tố hàng đầu.
 
@@ -146,7 +146,7 @@ Tuy nhiên, những ứng dụng hiện nay không làm rõ điểm khác biệt
 
 ![](https://media.beincom.com/image/variants/article/content/db2a3c09-97e8-4fa4-8327-d2923194b4c4?width=1080&q=75)
 
-**Đầu tư**: Trong thế giới đầu tư truyền thống, trải nghiệm phải lựa chọn từ một tập các ký tự biểu tượng của các mã chứng khoán không hệ dễ dàng (APPL, TSLA, FSMAX…) và Crypto cũng không đơn giản hơn. 
+**Đầu tư**: Trong thế giới đầu tư truyền thống, trải nghiệm phải lựa chọn từ một tập các ký tự biểu tượng của các mã chứng khoán không hệ dễ dàng (APPL, TSLA, FSMAX…) và Crypto cũng không đơn giản hơn.
 
 Tại TradFi, những thứ phức tạp này được che đậy bởi các dịch vụ, chúng xử lý những thứ phức tạp bên dưới mang lại sự thuận tiện cho những nhà đầu tư nhỏ lẻ hoặc những nhà đầu tư nổi tiếng khi chỉ rõ loại toàn sản chứng khoán đó theo công ty nào.
 
