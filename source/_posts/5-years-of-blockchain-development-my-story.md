@@ -1,7 +1,7 @@
 ---
 layout: blog
 title: "5 years of Blockchain development: My story?"
-date: 2023-09-27T12:52:23.888Z
+date: 2023-10-02T12:52:23.888Z
 top_image: /images/uploads/110954462_p0.jpg
 tags:
   - experience
@@ -42,4 +42,16 @@ Well, it was not smoothly like I hope. Never in my life I need to overtime every
 
 # The new page of my life
 
+Well, after many first time, this time is the first time I worked for an opensource Blockchain company. Oh well, I never impress by opensource environment before but this time, I change my mind and be promoted to be a tech lead of a small Blockchain team. Because of opensource so its need to flexibility on Technology. I have many chance to learn new things and the most beautiful things this time is working to build a chain core. After learning how frustrated of an ideal building chain in Javascript, we switch to using Go and Rust then end up with Rust.
 
+After working for around 6 month, my master at TGM corp (old) called for building a new technology company that build a social platform power by Blockchain. I am quite curious at this product and have some time to learn about it. After that I decided to join this company.
+
+## Two longs years and go on
+
+This company is that most long time I spend for the company. Its look like I am quite old now and don't have much passion on proof myself like before. This time I want to make something valuable and have a good impact to the world. So I still stay here to make at least one product that I can proud of. Well, the most problem is I am not so busy like others team because company just start cannot focus on Blockchain stuff. That time I have much time on learning as much as possible to fully understand Technology as well as business stuff.  I have chance to try so much technology and security technique that I never have a chance to try before like Solana, Near, Avalanche, Aptos, ... And building a full flow working stack of a technology on my own with OpenZeppelin Defender, Hardhat, Foundry, ....
+
+This time is buidl market, so I wonder how things are going out there. For my opinions, the next blooming of Crypto market is SocialFi and Account Abstraction.
+
+# The future
+
+Well its my secret. In Vietnamese, we always say that talk about the thing you will do for the future and its won't let you pass. So at least from now, its the future stuff story.
