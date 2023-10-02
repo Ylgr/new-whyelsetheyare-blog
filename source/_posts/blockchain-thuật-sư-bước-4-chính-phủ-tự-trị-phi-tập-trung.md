@@ -11,6 +11,8 @@ categories:
 ---
 Bài toán ra quyết định và thực thi, luôn là một bài toán thường trực phải giải quyết cho từng cá nhân hay tập thể. Trong quy mô tập thể khi lợi ích từng bên bị ảnh hưởng ít nhiều trong việc ra quyết định, một chính phủ được hình thành để tiếp nhận tiếng nói chung để ra quyết định và thực thi quyết định đó. Ở thế giới Blockchain, chính phủ này được phổ quát rộng rãi hơn và hiệu quả hơi với tên gọi **Decentralized Autonomous Organization (DAO)**.
 
+<!-- more -->
+
 Về kỹ thuật, bản chất nó là một smart contract tên Governor.
 
 # Giải thích về Contract Governor
